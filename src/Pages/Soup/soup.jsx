@@ -1,7 +1,10 @@
+import SoupMenu from "../../components/soup-menu/soup-menu"
+
+
 export const SoupPage = () => {
     return (
         <div>
-            SoupPage
+            <SoupMenu/>
         </div>
     )
 }
