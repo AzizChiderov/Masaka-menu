@@ -1,0 +1,17 @@
+.link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: red;
+}
+
+.link:active {
+    color: black;
+    background-color: #fff;
+    border: none;
+
+}
