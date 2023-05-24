@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'Comfortaa';
+  src: local('Comfortaa'),
+  url('./components//styles//fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
+}
+
+
+
+.font-light {
+  font-size: 20px;
+  font-family: "Comfortaa", monospace;
+}
+
+.font-bold {
+  font-size: 80px;
+  font-family: "Comfortaa";
+}

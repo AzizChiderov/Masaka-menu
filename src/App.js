@@ -6,11 +6,12 @@ import { BuisneslunchPage } from './Pages/Buisness-lunch/lunch';
 import { SaladPage } from './Pages/Salads/salad';
 import { TofuPage } from './Pages/Tofu/tofu';
 import { SoupPage } from './Pages/Soup/soup';
-import { SoupDetail } from './Pages/SoupDetails/SoupDetails';
+import Home from './Pages/Home/home'
 
 export const App = () => {
   return (
     <BrowserRouter>
+    <Home />
       <Routes>
         <Route path='/Bowl' element={<BowlPage/>}/>
         <Route path='/Buisness-lunch' element={<BuisneslunchPage />} />
@@ -21,7 +22,7 @@ export const App = () => {
         <Route />
         <Route />
         <Route />
-        <Route />
+        <Route />Ё
         <Route />
         <Route />
         <Route />
