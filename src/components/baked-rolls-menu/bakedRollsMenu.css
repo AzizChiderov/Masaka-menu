@@ -1,0 +1,45 @@
+.baked-rolls-menu {
+    text-align: center;
+}
+
+.baked-rolls-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.baked-rolls-card {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(21, 23, 21);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(255, 0, 0, 0.3), 0 0 12px rgba(0, 255, 0, 0.3), 0 0 16px rgba(0, 0, 255, 0.3);
+}
+
+
+
+.baked-rolls-card img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.baked-rolls-card h2 {
+    margin-top: 0;
+    color: white;
+}
+
+.baked-rolls-card p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.baked-rolls-card .price {
+    font-weight: bold;
+    color: green;
+}
