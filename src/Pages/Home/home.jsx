@@ -2,6 +2,7 @@ import React from "react";
 import H from "./home.module.css"
 import Column from "../../components/images/JPG/masaka-column.jpg"
 
+
 const Home = () => {
     return (
         <div className={H.container}>
