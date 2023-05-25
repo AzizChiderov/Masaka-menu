@@ -103,7 +103,7 @@ const links = [
 
 
 
-export const Nav = () => {
+const Nav = () => {
     return (
         <div className="slider-container">
             <div className="link-wrapper">
@@ -116,3 +116,4 @@ export const Nav = () => {
         </div>
     );
 };
+export default Nav
