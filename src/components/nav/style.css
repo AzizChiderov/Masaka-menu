@@ -8,10 +8,13 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
+    
     white-space: nowrap;
 }
-
-
+::-webkit-scrollbar {
+    width: 0;
+  }
+  
 .link {
     display: inline-block;
     padding: 10px;
