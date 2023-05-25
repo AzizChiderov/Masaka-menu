@@ -2,8 +2,8 @@ import React from "react";
 import "../item-menu/item-menu.css";
 import { ItemMenu } from "../item-menu/item-menu";
 
-const NoodleMenu = () => {
-    const noodles = [
+const Fishmenu = () => {
+    const fishs = [
         {
             id: 1,
             name: "Овощной крем-суп",
@@ -199,13 +199,13 @@ const NoodleMenu = () => {
 
   return (
     <div className="item-menu">
-      <h1>БЛЮДА С ЛАПШОЙ</h1>
-      <ItemMenu items={noodles} />
+      <h1>БЛЮДА ИЗ РЫБЫ</h1>
+      <ItemMenu items={fishs} />
     </div>
   );
 };
 
-export default NoodleMenu;
+export default Fishmenu;
 
 
 
