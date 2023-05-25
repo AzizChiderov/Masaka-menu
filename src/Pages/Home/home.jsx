@@ -2,7 +2,7 @@ import React from "react";
 import H from "./home.module.css"
 import Column from "../../components/images/JPG/masaka-column.jpg"
 import Nav from "../../components/nav/index"
-
+import Layout from "../../components/layout/index"
 
 const Home = () => {
     return (
@@ -15,7 +15,6 @@ const Home = () => {
             <h1 className="font">Добро пожаловать в Масаку!</h1>
             </div>
             <Nav />
-
             </div>
         </div>
     )

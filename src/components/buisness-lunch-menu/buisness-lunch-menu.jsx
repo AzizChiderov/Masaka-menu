@@ -1,24 +1,25 @@
 import React from "react";
 import "../item-menu/item-menu.css";
 import { ItemMenu } from "../item-menu/item-menu";
+import Lunch from "../images/Menu/lunch/lunch.png"
 
 const BuisnessLunchMenu = () => {
     const lunches = [
         {
             id: 1,
-            name: "Овощной крем-суп",
+            name: "Сакана Бизнес-ланч",
             ingredients: [
-                "картофель",
-                "морковь",
-                "лук",
-                "помидоры",
-                "брокколи",
+                "Том Ям",
+                "курица тонкацу",
+                "рис",
+                "чука",
+                "филадельфия классик",
                 "сельдерей",
                 "специи"
             ],
-            description: "Ароматный и питательный овощной крем-суп с мягкими текстурами и богатым вкусом. Идеальное сочетание свежих овощей и специй.",
-            photo: "https://media.istockphoto.com/id/597926666/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B3%D1%80%D0%B8%D0%B1%D0%BD%D0%BE%D0%B9-%D1%81%D1%83%D0%BF-%D1%81-%D0%BF%D0%B5%D1%82%D1%80%D1%83%D1%88%D0%BA%D0%B0.jpg?s=612x612&w=0&k=20&c=zwFI5n72C6ppQsUN7Znda4X1HzVAwo36MtueZtw8gYQ=",
-            price: 5.99
+            // description: "Ароматный и питательный овощной крем-суп с мягкими текстурами и богатым вкусом. Идеальное сочетание свежих овощей и специй.",
+            photo: `${Lunch}`,
+            price: 475
         },
         {
             id: 2,
