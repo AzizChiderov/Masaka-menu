@@ -1,5 +1,4 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import './soupMenu.css'
 
 const SoupMenu = () => {
@@ -34,22 +33,6 @@ const SoupMenu = () => {
             description: "Ароматный грибной крем-суп с нежной текстурой и насыщенным вкусом. Идеальное сочетание свежих шампиньонов и сливок.",
             photo: "https://smaylovich.ru/upload/iblock/386/38685c29e962feb6ff89498fda495b3b.jpeg",
             price: 6.99
-        },
-        {
-            id: 3,
-            name: "Томатный суп",
-            ingredients: [
-                "помидоры",
-                "лук",
-                "морковь",
-                "чеснок",
-                "базилик",
-                "соль",
-                "сахар"
-            ],
-            description: "Ароматный томатный суп с насыщенным вкусом и легкой кислинкой. Идеальное сочетание спелых помидоров и свежих трав.",
-            photo: "https://cdn.bahroma1.ru/goods/tom_yam_nov.jpg",
-            price: 4.99
         },
         {
             id: 3,
@@ -194,26 +177,81 @@ const SoupMenu = () => {
             description: "Ароматный томатный суп с насыщенным вкусом и легкой кислинкой. Идеальное сочетание спелых помидоров и свежих трав.",
             photo: "https://cdn.bahroma1.ru/goods/tom_yam_nov.jpg",
             price: 4.99
+        },
+        {
+            id: 12,
+            name: "Томатный суп",
+            ingredients: [
+                "помидоры",
+                "лук",
+                "морковь",
+                "чеснок",
+                "базилик",
+                "соль",
+                "сахар"
+            ],
+            description: "Ароматный томатный суп с насыщенным вкусом и легкой кислинкой. Идеальное сочетание спелых помидоров и свежих трав.",
+            photo: "https://cdn.bahroma1.ru/goods/tom_yam_nov.jpg",
+            price: 4.99
         }
     ];
 
-    return (
-        <div className="soup-menu">
-            <h1>Меню супов</h1>
-            <div className="soup-container">
-                {soups.map(soup => (
-                    <div className="soup-card" key={soup.id}>
-                        <Link to={`/soup/${soup.id}`}>
-                            <img className="soup-photo" src={soup.photo} alt={soup.name} />
-                        </Link>
-                        <h2>{soup.name}</h2>
-                        <p>Описание: {soup.description}</p>
-                        <p className="price">Цена: ${soup.price}</p>
-                    </div>
-                ))}
-            </div>
+    const [selectedSoup, setSelectedSoup] = useState(null);
+
+  const openModal = (soup) => {
+    setSelectedSoup(soup);
+  };
+
+  const closeModal = () => {
+    setSelectedSoup(null);
+  };
+
+  const handleOverlayClick = (event) => {
+    if (event.target.classList.contains('modal')) {
+      closeModal();
+    }
+  };
+
+  return (
+    <div className="soup-menu">
+      <h1>Меню супов</h1>
+      <div className="soup-container">
+        {soups.map((soup) => (
+          <div className="soup-card" key={soup.id}>
+            <button className="soup-button" onClick={() => openModal(soup)}>
+              <img className="soup-photo" src={soup.photo} alt={soup.name} />
+            </button>
+            <h2>{soup.name}</h2>
+            <p>Описание: {soup.description}</p>
+            <p className="price">Цена: ${soup.price}</p>
+          </div>
+        ))}
+      </div>
+
+      {selectedSoup && selectedSoup.id && (
+        <div className="modal" onClick={handleOverlayClick}>
+          <div className="modal-content">
+            <span className="close-button" onClick={closeModal}>
+              &times;
+            </span>
+            <h2>{selectedSoup.name}</h2>
+            <img src={selectedSoup.photo} alt={selectedSoup.name} />
+            <p>Описание: {selectedSoup.description}</p>
+            <p>Цена: ${selectedSoup.price}</p>
+            <p>Ингредиенты: {selectedSoup.ingredients.join(', ')}</p>
+          </div>
         </div>
-    );
-}
+      )}
+    </div>
+  );
+};
 
 export default SoupMenu;
+
+
+
+
+
+
+
+
