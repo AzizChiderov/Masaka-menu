@@ -1,5 +1,9 @@
+import NoodleMenu from "../../components/noodle-menu/noodle-menu"
+
 export const NoodlesPage = () => {
     return (
-        <div>NoodlesPage</div>
+        <div>
+            < NoodleMenu />
+        </div>
     )
 }

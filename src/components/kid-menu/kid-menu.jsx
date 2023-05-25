@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import '../item-menu/item-menu.css'
 
-const SoupMenu = () => {
+const KidMenu = () => {
     const soups = [
         {
             id: 1,
@@ -246,7 +246,7 @@ const SoupMenu = () => {
     );
 };
 
-export default SoupMenu;
+export default KidMenu;
 
 
 

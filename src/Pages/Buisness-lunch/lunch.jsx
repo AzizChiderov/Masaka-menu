@@ -1,7 +1,9 @@
+import BuisnessLunchMenu from "../../components/buisness-lunch-menu/buisness-lunch-menu"
+
 export const BuisneslunchPage = () => {
     return (
         <div>
-            Buisnes-lunch
+            < BuisnessLunchMenu />
         </div>
     )
 }

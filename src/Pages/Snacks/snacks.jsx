@@ -1,5 +1,9 @@
+import SnackMenu from "../../components/snack-menu/snack-menu"
+
 export const SnacksPage = () => {
     return (
-        <div>SnacksPage</div>
+        <div>
+            <SnackMenu />
+        </div>
     )
 }

@@ -1,5 +1,9 @@
+import SusiMenu from "../../components/susi-menu/susi-menu"
+
 export const SusiPage = () => {
     return (
-        <div>SushiPage</div>
+        <div>
+            <SusiMenu />
+        </div>
     )
 }

@@ -1,4 +1,4 @@
-import BakedRoolsMenu from "../../components/baked-rolls-menu/baked-rolls-menu"
+import BakedRoolsMenu from "../../components/baked-roll-menu/baked-roll-menu"
 
 export const BackedRollsPage = () => {
     return (

@@ -1,7 +1,9 @@
+import SaladMenu from "../../components/salad-menu/salad-menu"
+
 export const SaladPage = () => {
     return (
         <div>
-            SaladPage
+            < SaladMenu />
         </div>
     )
 }

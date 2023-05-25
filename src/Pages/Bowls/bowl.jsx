@@ -1,7 +1,9 @@
+import BowlMenu from "../../components/bowl-menu/bowl-menu"
+
 export const BowlPage = () => {
     return (
         <div>
-            BoulPage
+            <BowlMenu />
         </div >
     )
 }

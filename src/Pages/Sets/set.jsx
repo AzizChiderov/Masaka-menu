@@ -1,6 +1,10 @@
+import SetMenu from "../../components/set-menu/set-menu"
+
 export const SetsPage = () => {
     return (
-        <div>SetsPage</div>
+        <div>
+            < SetMenu />
+        </div>
     )
 
 }

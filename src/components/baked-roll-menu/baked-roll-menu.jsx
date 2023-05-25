@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import '../item-menu/item-menu.css'
 
-const SoupMenu = () => {
-    const soups = [
+const BakedRollsMenu = () => {
+    const bakedRolls = [
         {
             id: 1,
             name: "Овощной крем-суп",
@@ -216,14 +216,14 @@ const SoupMenu = () => {
         <div className="item-menu">
             <h1>Меню супов</h1>
             <div className="item-container">
-                {soups.map((soup) => (
-                    <div className="item-card" key={soup.id}>
-                        <button className="item-button" onClick={() => openModal(soup)}>
-                            <img className="item-photo" src={soup.photo} alt={soup.name} />
+                {bakedRolls.map((bakedRoll) => (
+                    <div className="item-card" key={bakedRoll.id}>
+                        <button className="item-button" onClick={() => openModal(bakedRoll)}>
+                            <img className="item-photo" src={bakedRoll.photo} alt={bakedRoll.name} />
                         </button>
-                        <h2>{soup.name}</h2>
-                        <p>Описание: {soup.description}</p>
-                        <p className="price">Цена: ${soup.price}</p>
+                        <h2>{bakedRoll.name}</h2>
+                        <p>Описание: {bakedRoll.description}</p>
+                        <p className="price">Цена: ${bakedRoll.price}</p>
                     </div>
                 ))}
             </div>
@@ -246,7 +246,7 @@ const SoupMenu = () => {
     );
 };
 
-export default SoupMenu;
+export default BakedRollsMenu;
 
 
 

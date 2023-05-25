@@ -1,5 +1,9 @@
+import ChickenMenu from "../../components/chicken-menu/chicken-menu"
+
 export const ChickenPage = () => {
     return (
-        <div>ChickenPage</div>
+        <div>
+            < ChickenMenu />
+        </div>
     )
 }

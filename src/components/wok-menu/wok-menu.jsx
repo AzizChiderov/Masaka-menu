@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import './woke-menu.module.css'
+import '../item-menu/item-menu.css'
 
 const WokMenu = () => {
-    const woks = [
+    const soups = [
         {
             id: 1,
             name: "Овощной крем-суп",
@@ -198,8 +198,8 @@ const WokMenu = () => {
 
     const [selectedSoup, setSelectedSoup] = useState(null);
 
-    const openModal = (wok) => {
-        setSelectedSoup(wok);
+    const openModal = (soup) => {
+        setSelectedSoup(soup);
     };
 
     const closeModal = () => {
@@ -213,17 +213,17 @@ const WokMenu = () => {
     };
 
     return (
-        <div className="soup-menu">
-            <h1>Вок</h1>
-            <div className="soup-container">
-                {woks.map((wok) => (
-                    <div className="soup-card" key={wok.id}>
-                        <button className="soup-button" onClick={() => openModal(wok)}>
-                            <img className="soup-photo" src={wok.photo} alt={wok.name} />
+        <div className="item-menu">
+            <h1>Меню супов</h1>
+            <div className="item-container">
+                {soups.map((soup) => (
+                    <div className="item-card" key={soup.id}>
+                        <button className="item-button" onClick={() => openModal(soup)}>
+                            <img className="item-photo" src={soup.photo} alt={soup.name} />
                         </button>
-                        <h2>{wok.name}</h2>
-                        <p>Описание: {wok.description}</p>
-                        <p className="price">Цена: ${wok.price}</p>
+                        <h2>{soup.name}</h2>
+                        <p>Описание: {soup.description}</p>
+                        <p className="price">Цена: ${soup.price}</p>
                     </div>
                 ))}
             </div>
