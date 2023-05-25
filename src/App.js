@@ -20,8 +20,6 @@ import { SetsPage } from './Pages/Sets/set';
 import { KidsMenuPage } from './Pages/Kid_menu/kid_menu';
 import { DesertPage } from './Pages/Deserts/desert';
 import { DrinksPage } from './Pages/Drinks/drink'
-import { SoupDetail } from './Pages/SoupDetails/SoupDetails';
-import Home from './Pages/Home/home'
 
 export const App = () => {
   return (
@@ -48,7 +46,7 @@ export const App = () => {
           <Route path='/kids-menu' element={<KidsMenuPage />} />
           <Route path='/deserts' element={<DesertPage />} />
           <Route path='/drinks' element={<DrinksPage />} />
-        </Route>
+          </Route>
       </Routes>
     </BrowserRouter>
   )

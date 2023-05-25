@@ -1,5 +1,7 @@
-import { Link } from "react-router-dom"
-import './style.css'
+
+import { Link } from "react-router-dom";
+import React from "react";
+import './style.css';
 
 const links = [
     {
@@ -100,13 +102,17 @@ const links = [
 ]
 
 
+
 export const Nav = () => {
     return (
-        links.map((link) => (
-            <Link className="link" key={link.id} to={link.route}>
-                {link.text}
-            </Link>
-        )
-        )
-    )
-}
+        <div className="slider-container">
+            <div className="link-wrapper">
+                {links.map((link) => (
+                    <Link className="link" key={link.id} to={link.route}>
+                        {link.text}
+                    </Link>
+                ))}
+            </div>
+        </div>
+    );
+};
