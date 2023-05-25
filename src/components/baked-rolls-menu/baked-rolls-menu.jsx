@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './bakedRollsMenu.css'
+import '../soup-menu/soupMenu.css'
 
 const BakedRoolsMenu = () => {
     const bakedRolls = [
+        // {nameId: "adsfj;lajfsd"},
         {
             id: 1,
             name: "Овощной крем-суп",
@@ -198,17 +199,17 @@ const BakedRoolsMenu = () => {
     ];
 
     return (
-        <div className="baked-rolls-menu">
+        <div className="soup-menu">
             <h1>ЗАПЕЧЕННЫЕ РОЛЛЫ</h1>
-            <div className="baked-rolls-container">
-                {bakedRolls.map((bakedroll) => (
-                    <div className="baked-rolls-card" key={bakedroll.id}>
-                        <Link to={`/baked-rolls/${baked-rolls.id}`}>
-                            <img className="baked-rolls-photo" src={bakedRolls.photo} alt={bakedRolls.name} />
+            <div className="soup-container">
+                {bakedRolls.map((bakedRoll) => (
+                    <div className="soup-card" key={bakedRoll.id}>
+                        <Link to={`/baked-rolls/${bakedRoll.id}`}>
+                            <img className="soup-photo" src={bakedRoll.photo} alt={bakedRoll.name} />
                         </Link>
-                        <h2>{bakedRolls.name}</h2>
-                        <p>Описание: {bakedRolls.description}</p>
-                        <p className="price">Цена: ${bakedRolls.price}</p>
+                        <h2>{bakedRoll.name}</h2>
+                        <p>Описание: {bakedRoll.description}</p>
+                        <p className="price">Цена: ${bakedRoll.price}</p>
                     </div>
                 ))}
             </div>

@@ -10,6 +10,12 @@
 .box {
     width: 90%;
 }
+
+.column {
+    width: 100%;
+    height: 100%;
+}
+
 .line {
     background-color: rgb(62, 56, 56);
     width: 100%;
@@ -26,7 +32,6 @@
 }
 
 .column {
-    opacity: 0.9;
     width: 100%;
     height: 100%;
 }
