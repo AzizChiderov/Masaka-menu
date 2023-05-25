@@ -1,8 +1,9 @@
-import { useState } from 'react';
-import '../item-menu/item-menu.css'
+import React from "react";
+import "../item-menu/item-menu.css";
+import { ItemMenu } from "../item-menu/item-menu";
 
 const BeefMenu = () => {
-    const soups = [
+    const beefs = [
         {
             id: 1,
             name: "Овощной крем-суп",
@@ -196,59 +197,15 @@ const BeefMenu = () => {
         }
     ];
 
-    const [selectedSoup, setSelectedSoup] = useState(null);
-
-    const openModal = (soup) => {
-        setSelectedSoup(soup);
-    };
-
-    const closeModal = () => {
-        setSelectedSoup(null);
-    };
-
-    const handleOverlayClick = (event) => {
-        if (event.target.classList.contains('modal')) {
-            closeModal();
-        }
-    };
-
-    return (
-        <div className="item-menu">
-            <h1>Меню супов</h1>
-            <div className="item-container">
-                {soups.map((soup) => (
-                    <div className="item-card" key={soup.id}>
-                        <button className="item-button" onClick={() => openModal(soup)}>
-                            <img className="item-photo" src={soup.photo} alt={soup.name} />
-                        </button>
-                        <h2>{soup.name}</h2>
-                        <p>Описание: {soup.description}</p>
-                        <p className="price">Цена: ${soup.price}</p>
-                    </div>
-                ))}
-            </div>
-
-            {selectedSoup && selectedSoup.id && (
-                <div className="modal" onClick={handleOverlayClick}>
-                    <div className="modal-content">
-                        <span className="close-button" onClick={closeModal}>
-                            &times;
-                        </span>
-                        <h2>{selectedSoup.name}</h2>
-                        <img src={selectedSoup.photo} alt={selectedSoup.name} />
-                        <p>Описание: {selectedSoup.description}</p>
-                        <p>Цена: ${selectedSoup.price}</p>
-                        <p>Ингредиенты: {selectedSoup.ingredients.join(', ')}</p>
-                    </div>
-                </div>
-            )}
-        </div>
-    );
+  return (
+    <div className="item-menu">
+      <h1>БЛЮДА С ГОВЯДИНОЙ</h1>
+      <ItemMenu items={beefs} />
+    </div>
+  );
 };
 
 export default BeefMenu;
-
-
 
 
 

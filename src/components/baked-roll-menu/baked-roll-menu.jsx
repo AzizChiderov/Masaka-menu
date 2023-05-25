@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import React from 'react';
 import '../item-menu/item-menu.css'
+import { ItemMenu } from "../item-menu/item-menu";
 
 const BakedRollsMenu = () => {
     const bakedRolls = [
@@ -196,52 +197,10 @@ const BakedRollsMenu = () => {
         }
     ];
 
-    const [selectedSoup, setSelectedSoup] = useState(null);
-
-    const openModal = (soup) => {
-        setSelectedSoup(soup);
-    };
-
-    const closeModal = () => {
-        setSelectedSoup(null);
-    };
-
-    const handleOverlayClick = (event) => {
-        if (event.target.classList.contains('modal')) {
-            closeModal();
-        }
-    };
-
     return (
         <div className="item-menu">
-            <h1>Меню супов</h1>
-            <div className="item-container">
-                {bakedRolls.map((bakedRoll) => (
-                    <div className="item-card" key={bakedRoll.id}>
-                        <button className="item-button" onClick={() => openModal(bakedRoll)}>
-                            <img className="item-photo" src={bakedRoll.photo} alt={bakedRoll.name} />
-                        </button>
-                        <h2>{bakedRoll.name}</h2>
-                        <p>Описание: {bakedRoll.description}</p>
-                        <p className="price">Цена: ${bakedRoll.price}</p>
-                    </div>
-                ))}
-            </div>
-
-            {selectedSoup && selectedSoup.id && (
-                <div className="modal" onClick={handleOverlayClick}>
-                    <div className="modal-content">
-                        <span className="close-button" onClick={closeModal}>
-                            &times;
-                        </span>
-                        <h2>{selectedSoup.name}</h2>
-                        <img src={selectedSoup.photo} alt={selectedSoup.name} />
-                        <p>Описание: {selectedSoup.description}</p>
-                        <p>Цена: ${selectedSoup.price}</p>
-                        <p>Ингредиенты: {selectedSoup.ingredients.join(', ')}</p>
-                    </div>
-                </div>
-            )}
+            <h1>ЗАПЕЧЕННЫЕ РОЛЛЫ</h1>
+            <ItemMenu items={bakedRolls} />
         </div>
     );
 };
