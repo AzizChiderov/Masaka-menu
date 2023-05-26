@@ -27,6 +27,7 @@ export const ItemMenu = (props) => {
             </button>
             <h2>{item.name}</h2>
             <p className="price">Цена: {item.price} сом</p>
+            <b className="item-weight">{item.weight}гр</b>
           </div>
         ))}
       </div>

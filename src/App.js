@@ -20,11 +20,12 @@ import { SetsPage } from './Pages/Sets/set';
 import { KidsMenuPage } from './Pages/Kid_menu/kid_menu';
 import { DesertPage } from './Pages/Deserts/desert';
 import { DrinksPage } from './Pages/Drinks/drink'
+import Home from './Pages/Home/home';
 
 export const App = () => {
   return (
     <BrowserRouter>
-      <Home />
+      <Home/>
       <Routes>
         <Route path='/' element={<Layout />} >
           <Route path='/buisness-lunch' element={<BuisneslunchPage />} />
