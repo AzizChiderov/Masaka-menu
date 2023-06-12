@@ -1,11 +1,11 @@
 import React from "react";
 import "../item-menu/item-menu.css";
 import { ItemMenu } from "../item-menu/item-menu";
-import Tofu from "../images/Menu/Tofu/tofu.png"
-import Tofu2 from "../images/Menu/Tofu/tofu2.png"
-import Tofu3 from "../images/Menu/Tofu/tofu3.png"
-import Tofu4 from "../images/Menu/Tofu/tofu4.png"
-import Tofu5 from "../images/Menu/Tofu/tofu5.png"
+import Tofu from "../images/Menu/tofu/tofu.png"
+import Tofu2 from "../images/Menu/tofu/tofu2.png"
+import Tofu3 from "../images/Menu/tofu/tofu3.png"
+import Tofu4 from "../images/Menu/tofu/tofu4.png"
+import Tofu5 from "../images/Menu/tofu/tofu5.png"
 
 
 const TofuMenu = () => {

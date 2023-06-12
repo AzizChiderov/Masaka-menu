@@ -1,3 +1,4 @@
+import React from "react";
 import "../item-menu/item-menu.css";
 import { ItemMenu } from "../item-menu/item-menu";
 import Wok1 from "../images/Menu/wok/wok1.png"
