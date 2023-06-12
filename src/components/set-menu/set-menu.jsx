@@ -57,13 +57,13 @@ const SetMenu = () => {
         }, 
         {
             id: 8,
-            name: "классический",
+            name: "обед суммоиста",
             photo: `${Set8}`,            
             price: 1750
         }, 
         {
             id: 9,
-            name: "классический",
+            name: "ужин суммоиста",
             photo: `${Set9}`,            
             price: 2295
         }, 
