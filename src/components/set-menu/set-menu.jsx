@@ -7,6 +7,9 @@ import Set3 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
 import Set4 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
 import Set5 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
 import Set6 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
+import Set7 from '../images/Menu/set/set7.jpg'
+import Set8 from '../images/Menu/set/set8.jpg'
+import Set9 from '../images/Menu/set/set9.jpg'
 
 const SetMenu = () => {
     const sets = [
@@ -45,7 +48,25 @@ const SetMenu = () => {
             name: "классический",
             photo: `${Set6}`,            
             price: 1250
-        }       
+        },     
+        {
+            id: 7,
+            name: "завтрак суммоиста",
+            photo: `${Set7}`,            
+            price: 945
+        }, 
+        {
+            id: 8,
+            name: "классический",
+            photo: `${Set8}`,            
+            price: 1750
+        }, 
+        {
+            id: 9,
+            name: "классический",
+            photo: `${Set9}`,            
+            price: 2295
+        }, 
     ];
 
   return (
