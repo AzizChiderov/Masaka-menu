@@ -100,26 +100,31 @@ const links = [
     }
 ]
 
+
 const Nav = () => {
   const [isNavFixed, setIsNavFixed] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      const navElement = document.getElementById("nav");
-      const navHeight = navElement.offsetHeight;
       const scrollPosition = window.scrollY;
-
-      setIsNavFixed(scrollPosition > navHeight);
+      setIsNavFixed(scrollPosition > 300);
     };
 
     window.addEventListener("scroll", handleScroll);
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
-    <div id="nav" className={`slider-container ${isNavFixed ? "fixed" : ""}`}>
+    <div
+      id="nav"
+      className={`nav ${isNavFixed ? "fixed" : ""}`}
+      style={{
+        transition: "top 0.3s ease-in-out",
+      }}
+    >
       <div className="link-wrapper">
         {links.map(({ id, text, route }) => (
           <Link className="link" key={id} to={route}>

@@ -1,6 +1,7 @@
 .item-menu {
     text-align: center;
     background-image: url(../images/JPG/bamboo.jpg);
+    object-fit: cover;
     background-position: center;
     border-top: 20px solid black;
     z-index: 90;
@@ -24,6 +25,7 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     text-align: center;
+    /* background-color: rgb(77, 92, 77); */
     background-color: #800000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
         0 1px 3px rgba(0, 0, 0, 0.1),
@@ -41,14 +43,14 @@
 .box {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    text-align: start;
-    margin-top: 20px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .name_box {
     width: 40%;
 }
+
 .box .price_box {
     width: 50%;
     display: flex;
@@ -73,8 +75,7 @@
 .item-card h2 {
     text-transform: uppercase;
     color: white;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 18px;
     transform: translateZ(40px);
 }
 
@@ -108,31 +109,25 @@
 
 .modal-content {
     position: relative;
-    /* background-color: #800000; */
     background-color: rgb(77, 92, 77);
     color: white;
     padding: 20px;
     border: 2px solid #888;
     width: 50%;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: auto;
+    justify-content: space-evenly;
     overflow-y: auto;
     border-radius: 14px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    perspective: 1000px;
-    transition: transform 1s;
-}
-
-.modal-content:hover {
-    transform: rotateY(5deg) translateY(-5px);
 }
 
 .modal-content h2 {
     text-transform: uppercase;
     transform: translateZ(40px);
-    margin: 10px 0;
+    margin: 15px 0 5px 0;
 }
 
 .close-button {
@@ -145,25 +140,15 @@
     cursor: pointer;
 }
 
-.close-button:hover,
-.close-button:focus {
-    color: #9ACD32;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 .modal .font_green {
     color: #9ACD32;
 }
 
-.modal p {
-    line-height: 30px;
-}
-
 .modal img {
     width: 100%;
-    max-height: 400px;
-    object-fit: contain;
+    max-height: 300px;
+    object-fit: cover;
     border-radius: 15px;
     color: #eee;
     transition: transform 0.5s;
@@ -174,11 +159,9 @@
 }
 
 
-@media screen and (max-height: 550px) {
+@media screen  and (max-width: 900px) {
     .modal-content {
-        /* padding: 20px; */
         width: 70%;
-        /* height: 450px; */
     }
 
     .modal-content h2 {
@@ -186,11 +169,42 @@
     }
 
     .modal img {
-        width: 100%;
         max-height: 200px;
-        object-fit: cover;
-        border-radius: 15px;
-        transition: transform 0.5s;
+    }
+
+}
+
+@media screen  and (max-width: 550px) {
+    .modal-content {
+        width: 80%;
+
+    }
+
+    .modal-content h2 {
+        font-size: 15px;
+    }
+
+    .modal img {
+        max-height: 140px;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    .modal-content {
+        width: 80%;
+    }
+
+    .modal-content h2 {
+        font-size: 12px;
+    }
+
+    .modal img {
+        max-height: 100px;
+    }
+
+    .item-card h2{
+    font-size: 15px;
     }
 
 }

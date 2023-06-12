@@ -12,7 +12,7 @@ import { BeefPage } from './Pages/Beef/beef';
 import { SnacksPage } from './Pages/Snacks/snacks';
 import { ChickenPage } from './Pages/Chicken/chicken';
 import { NoodlesPage } from './Pages/Noodles/noodle';
-import { GunkanPage, SusiPage } from './Pages/Gunkan/gunkan';
+import { GunkanPage,} from './Pages/Gunkan/gunkan';
 import { RollsPage } from './Pages/Rolls/roll';
 import { BackedRollsPage } from './Pages/Baked_rolls/baked_rolls';
 import { TempuraRollsPage } from './Pages/Tempura_rolls/tempura_rolls';

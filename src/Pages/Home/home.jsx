@@ -47,7 +47,9 @@ const Home = () => {
           isHeaderVisible ? "" : H.scrolled
         } ${isNavFixed ? H.fixed : ""}`}
       >
-        <a href="https://www.instagram.com/masaka_bishkek/" target="_blank" > <img className={H.logo_img} src={Logo} alt="MASAKA" /></a>
+<a href="https://www.instagram.com/masaka_bishkek/" target="_blank" rel="noreferrer">
+  <img className={H.logo_img} src={Logo} alt="MASAKA" />
+</a>
         <h2 className={`font_medium ${H.title}`}>ДОБРО ПОЖАЛОВАТЬ!</h2>
         <Nav />
       </div>

@@ -238,7 +238,6 @@ const drinks = [
 
 return (
     <div className={style.itemMenu}>
-      <h1 className='font'>НАПИТКИ</h1>
       <div className={style.itemContainer}>
         {drinks.map((drink) => (
           <div className={style.itemCard} key={drink.id}>
