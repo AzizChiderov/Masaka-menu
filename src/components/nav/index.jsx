@@ -19,6 +19,16 @@ const links = [
         route: '/tofu'
     },
     {
+        id: 20,
+        text: 'Пицца',
+        route: '/pizza'
+    },
+    {
+        id: 21,
+        text: 'Рамен',
+        route: '/ramen'
+    },
+    {
         id: 4,
         text: 'Супы',
         route: '/soup'
