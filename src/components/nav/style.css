@@ -8,7 +8,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 3;
   background-color: #800000;
   /* padding: 10px 0; */
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); 
@@ -44,7 +44,7 @@
   opacity: 0.9;
   transition: transform 0.3s ease-in-out;
   font-weight: bold; 
-  z-index: 9999;
+  /* z-index: 9999; */
 }
 
 .link.active {

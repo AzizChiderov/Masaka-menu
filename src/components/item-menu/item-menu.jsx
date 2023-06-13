@@ -48,6 +48,9 @@ export const ItemMenu = (props) => {
                 {item.weight && (
                   <p className="font_smaller">{item.weight} гр</p>
                 )}
+                {item.count && (
+                  <p className="font_smaller">{item.count} шт</p>
+                )}
               </div>
             </div>
             <div className="box">
@@ -60,9 +63,6 @@ export const ItemMenu = (props) => {
                 )}
                 {item.weight2 && (
                   <p className="font_smaller">{item.weight2} гр</p>
-                )}
-                {item.count && (
-                  <p className="font_smaller">{item.count} шт</p>
                 )}
               </div>
             </div>
