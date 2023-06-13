@@ -56,6 +56,30 @@ const KidMenu = () => {
   return (
     <div className="item-menu">
       <h1 className='font'>детское меню</h1>
+  const kids = [
+    {
+      category: "ДЕТСКОЕ МЕНЮ",
+      id: 1,
+      name: "фарфалле с осминожками и с сырними шариками",
+      photo: `${Kid1}`,
+      price: 250
+    },
+    {
+      id: 2,
+      name: "куриная котлета с фри",
+      photo: `${Kid2}`,
+      price: 295
+    },
+    {
+      id: 3,
+      name: "чикен болл с пюре",
+      photo: `${Kid3}`,
+      price: 245
+    }
+  ];
+
+  return (
+    <div className="item-menu">
       <ItemMenu items={kids} />
     </div>
   );

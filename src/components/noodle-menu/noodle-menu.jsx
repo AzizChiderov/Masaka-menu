@@ -10,6 +10,7 @@ import Noodle5 from "../images/Menu/noodles/noodle5.png"
 const NoodleMenu = () => {
     const noodles = [
         {
+            category: "БЛЮДА С ЛАПШОЙ",
             id: 1,
             name: "карбонара по- азиатски",
             description: "Традиционная японская лапша удон. с подкопченной говяжьей ветчиной, в сливочном и терияки соусах, с пармезаном",
@@ -53,7 +54,6 @@ const NoodleMenu = () => {
 
   return (
     <div className="item-menu">
-      <h1 className='font'>БЛЮДА С ЛАПШОЙ</h1>
       <ItemMenu items={noodles} />
     </div>
   );

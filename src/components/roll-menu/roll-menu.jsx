@@ -47,6 +47,7 @@ import Roll41 from "../images/Menu/rolls/roll41.png"
 const RollMenu = () => {
     const rolls = [
         {
+            category: "РОЛЛЫ",
             id: 1,
             name: "ролл без риса",
             ingredients: [
@@ -621,7 +622,6 @@ const RollMenu = () => {
 
   return (
     <div className="item-menu">
-      <h1 className='font'>РОЛЛЫ</h1>
       <ItemMenu items={rolls} />
     </div>
   );

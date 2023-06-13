@@ -11,6 +11,7 @@ import Fish6 from "../images/Menu/fish/fish6.png"
 const Fishmenu = () => {
     const fishs = [
         {
+            category: "БЛЮДА ИЗ РЫБЫ",
             id: 1,
             name: "форель под соусом баже",
             description: "Нежная форель подается с ореховым соусом баже и свежим салатом",
@@ -62,7 +63,6 @@ const Fishmenu = () => {
 
   return (
     <div className="item-menu">
-      <h1 className='font'>БЛЮДА ИЗ РЫБЫ</h1>
       <ItemMenu items={fishs} />
     </div>
   );

@@ -111,7 +111,7 @@ const links = [
 ]
 
 
-const Nav = () => {
+export const Nav = () => {
   const [isNavFixed, setIsNavFixed] = useState(false);
 
   useEffect(() => {

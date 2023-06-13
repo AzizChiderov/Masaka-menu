@@ -1,6 +1,7 @@
 
 import React from "react";
 import style from "./drinkMenu.module.css";
+import Home from "../../Pages/Home/home";
 
 const DrinkMenu = () => {
   
@@ -356,6 +357,7 @@ const drinks = [
 
 return (
     <div className={style.itemMenu}>
+        <Home/>
       <div className={style.itemContainer}>
         {drinks.map((drink) => (
           <div className={style.itemCard} key={drink.id}>

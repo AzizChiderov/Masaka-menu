@@ -11,6 +11,7 @@ import Tofu5 from "../images/Menu/tofu/tofu5.png"
 const TofuMenu = () => {
     const tofus = [
         {
+            category: "БЛЮДА ИЗ ТОФУ",
             id: 1,
             name: "тофу с лимон райс в соусе карри",
             description: "Тофу с лимон-райсом в соусе карри — идеальное сочетание нежности, свежести и остроты.",
@@ -54,7 +55,6 @@ const TofuMenu = () => {
 
   return (
     <div className="item-menu">
-      <h1 className='font'>БЛЮДА ИЗ ТОФУ</h1>
       <ItemMenu items={tofus} />
     </div>
   );

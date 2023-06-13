@@ -6,6 +6,7 @@ import { ItemMenu } from "../item-menu/item-menu"
 const RamenMenu = () => {
     const ramens = [
         {
+            category: "Рамен",
             id: 1,
             name: "рамен ассорти",
             // photo: `${Tofu}`,
@@ -57,7 +58,6 @@ const RamenMenu = () => {
 
     return (
         <div className="item-menu">
-            <h1 className='font'>рамен</h1>
             <ItemMenu items={ramens} />
         </div>
     )

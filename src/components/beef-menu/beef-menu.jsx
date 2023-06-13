@@ -12,6 +12,7 @@ import Beef7 from "../images/Menu/beef/beef7.png"
 const BeefMenu = () => {
     const beefs = [
         {
+            category: "БЛЮДА С ГОВЯДИНОЙ",
             id: 1,
             name: "тамагодон",
             description: "Рис с говядиной в соусе терияки, с ростками фасоли, кимчи, с яйцом по- азиатски",
@@ -71,7 +72,6 @@ const BeefMenu = () => {
 
   return (
     <div className="item-menu">
-      <h1 className='font'>БЛЮДА С ГОВЯДИНОЙ</h1>
       <ItemMenu items={beefs} />
     </div>
   );

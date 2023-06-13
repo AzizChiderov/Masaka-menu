@@ -14,6 +14,7 @@ import Set9 from '../images/Menu/set/set9.jpg'
 const SetMenu = () => {
     const sets = [
         {
+            category: "СЕТЫ",
             id: 1,
             name: "студент",            
             photo: `${Set1}`,
@@ -71,7 +72,6 @@ const SetMenu = () => {
 
   return (
     <div className="item-menu">
-      <h1 className='font'>СЕТЫ</h1>
       <ItemMenu items={sets} />
     </div>
   );

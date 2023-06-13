@@ -9,6 +9,7 @@ import Wok4 from "../images/Menu/wok/wok4.png"
 const WokMenu = () => {
     const woks = [
         {
+            category: "ВОКИ",
             id: 1,
             name: "вок с морепродуктами",
             description: "Стеклянная лапша фунчоза с морепродуктами и овощами. Подается с устричным пикантным соусом шрирача",
@@ -61,7 +62,6 @@ const WokMenu = () => {
 
     return (
  <div className="item-menu">
-      <h1 className='font'>ВОКИ</h1>
       <ItemMenu items={woks} />
     </div>
     );

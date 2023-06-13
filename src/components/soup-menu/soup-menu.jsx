@@ -17,6 +17,7 @@ import Soup12 from "../images/Menu/soup/soup12.png"
 const SoupMenu = () => {
     const soups = [
         {
+            category: "СУПЫ",
             id: 1,
             name: "куксу",
             description: "холодный куксу по-китайски",
@@ -145,7 +146,6 @@ const SoupMenu = () => {
 
     return (
         <div className="item-menu">
-            <h1 className='font'>СУПЫ</h1>
             <ItemMenu items={soups} />
         </div>
     );

@@ -10,7 +10,9 @@ import Lunch6 from "../images/Menu/lunch/lunch4.png"
 
 const BuisnessLunchMenu = () => {
     const lunches = [
+
         {
+            category: "Бизнес Ланчы",
             id: 1,
             name: "Бизнес ланч Азия",
             ingredients: [
@@ -94,7 +96,6 @@ const BuisnessLunchMenu = () => {
 
     return (
         <div className="item-menu">
-            <h1 className='font'>БИЗНЕС ЛАНЧИ</h1>
             <ItemMenu items={lunches} />
         </div>
     );

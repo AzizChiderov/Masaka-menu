@@ -12,6 +12,7 @@ import Tempura8 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
 const TempuraRollMenu = () => {
     const tempuras = [
         {
+            category: "ТЕМПУРА РОЛЛЫ",
             id: 1,
             name: "КАГУАССЕ",
             ingredients: [
@@ -130,7 +131,6 @@ const TempuraRollMenu = () => {
 
     return (
         <div className="item-menu">
-            <h1 className='font'>ТЕМПУРА РОЛЛЫ</h1>
             <ItemMenu items={tempuras} />
         </div>
     );
