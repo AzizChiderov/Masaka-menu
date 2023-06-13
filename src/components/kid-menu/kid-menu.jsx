@@ -9,27 +9,53 @@ const KidMenu = () => {
     const kids = [
         {
             id: 1,
-            name: "фарфалле с осминожками и с сырними шариками",
-            photo: `${Kid1}`,
-            price: 250
+            name: "куриный бульон с лапшой ",
+            photo: `${Kid3}`,
+            price: 220
         },
         {
             id: 2,
-            name: "куриная котлета с фри",
-            photo: `${Kid2}`,
-            price: 295
+            name: "фрикадельки с вермишелью",
+            photo: `${Kid3}`,
+            price: 200
         },
         {
             id: 3,
-            name: "чикен болл с пюре",
+            name: "сосиски с киндер фри",
             photo: `${Kid3}`,
             price: 245
-        }
+        },
+        {
+          id: 4,
+          name: "фарфалле с осминожками и с сырними шариками",
+          photo: `${Kid1}`,
+          price: 250
+      },
+      {
+          id: 5,
+          name: "куриная котлета с фри",
+          photo: `${Kid2}`,
+          price: 295
+      },
+      {
+          id: 6,
+          name: "чикен болл с пюре",
+          photo: `${Kid3}`,
+          price: 245
+      },
+      {
+        id: 7,
+        name: "хлебная корзина",
+        photo: `${Kid3}`,
+        price: 205,
+        name2: "багет",
+        price2: 80
+    }
     ];
 
   return (
     <div className="item-menu">
-      <h1 className='font'>ДЕТСКОЕ МЕНЮ</h1>
+      <h1 className='font'>детское меню</h1>
       <ItemMenu items={kids} />
     </div>
   );

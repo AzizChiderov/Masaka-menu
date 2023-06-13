@@ -1,4 +1,4 @@
-import RamenMenu from "../components/ramen-menu"
+import RamenMenu from "../../components/ramen-menu/ramen-menu"
 
 export const RamenPage = () => {
     return (

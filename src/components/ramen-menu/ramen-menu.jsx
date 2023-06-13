@@ -1,5 +1,5 @@
 import React from "react"
-import { ItemMenu } from "../components/item-menu/item-menu"
+import { ItemMenu } from "../item-menu/item-menu"
 
 
 
@@ -7,51 +7,51 @@ const RamenMenu = () => {
     const ramens = [
         {
             id: 1,
-            name: "",
+            name: "рамен ассорти",
             // photo: `${Tofu}`,
-            price: 425
+            price: 400
         },
         {
             id: 2,
-            name: "",
+            name: "мисо рамен",
             // photo: `${Tofu}`,
-            price: 425
+            price: 295
         },
         {
             id: 3,
-            name: "",
+            name: "рамен с копченным куринным филе",
             // photo: `${Tofu}`,
-            price: 425
+            price: 345
         },
         {
             id: 4,
-            name: "",
+            name: "кимчи рамен",
             // photo: `${Tofu}`,
-            price: 425
+            price: 295
         },
         {
             id: 5,
-            name: "",
+            name: "токпоки рамен",
             // photo: `${Tofu}`,
-            price: 425
+            price: 250
         },
         {
             id: 6,
-            name: "",
+            name: "рамен с тофу",
             // photo: `${Tofu}`,
-            price: 425
+            price: 250
         },
         {
             id: 7,
-            name: "",
+            name: "эноки рамен",
             // photo: `${Tofu}`,
-            price: 425
+            price: 330
         },
         {
             id: 8,
-            name: "",
+            name: "жаренный рамен",
             // photo: `${Tofu}`,
-            price: 425
+            price: 345
         }
     ];
 

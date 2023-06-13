@@ -5,7 +5,7 @@ import { BowlPage } from './Pages/Bowls/bowl.jsx';
 import { BuisneslunchPage } from './Pages/Buisness-lunch/lunch';
 import { SaladPage } from './Pages/Salads/salad';
 import { TofuPage } from './Pages/Tofu/tofu';
-import { PizzaPage } from './Pages/pizza';
+import { PizzaPage } from './Pages/Pizza/pizza';
 import { SoupPage } from './Pages/Soup/soup';
 import { WokPage } from './Pages/Wok/wok';
 import { FishPage } from './Pages/Fish/fish';
@@ -21,7 +21,7 @@ import { SetsPage } from './Pages/Sets/set';
 import { KidsMenuPage } from './Pages/Kid_menu/kid_menu';
 import { DesertPage } from './Pages/Deserts/desert';
 import { DrinksPage } from './Pages/Drinks/drink'
-import { RamenPage } from './Pages/ramen';
+import { RamenPage } from './Pages/Ramen/ramen';
 import Nav from './Pages/Home/home'
 
 
