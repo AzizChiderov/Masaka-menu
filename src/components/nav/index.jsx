@@ -117,7 +117,7 @@ export const Nav = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      setIsNavFixed(scrollPosition > 300);
+      setIsNavFixed(scrollPosition > 250);
     };
 
     window.addEventListener("scroll", handleScroll);
