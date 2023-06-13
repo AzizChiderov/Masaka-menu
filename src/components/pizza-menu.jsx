@@ -11,6 +11,7 @@ import Tofu5 from "../components/images/Menu/tofu/tofu5.png"
 const PizzaMenu = () => {
     const pizzas = [
         {
+            category: "ПИЦЦА",
             id: 1,
             name: "пицца пепперони",
             photo: `${Tofu}`,
@@ -62,7 +63,6 @@ const PizzaMenu = () => {
 
   return (
     <div className="item-menu">
-      <h1 className='font'>ПИЦЦА</h1>
       <ItemMenu items={pizzas} />
     </div>
   );
