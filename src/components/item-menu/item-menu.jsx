@@ -27,13 +27,10 @@ export const ItemMenu = (props) => {
       {!selectedItem && <Home />}
 
       {categories.map((category) => (
-        <h1 key={category} className="font_medium category-header">
+        <h1 key={category}>
           {category}
         </h1>
       ))}
-
-
-
       <div className="item-container">
         {props.items.map((item) => (
           <div

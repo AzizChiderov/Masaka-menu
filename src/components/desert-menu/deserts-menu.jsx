@@ -11,7 +11,7 @@ const DesertMenu = () => {
       category: "ДЕСЕРТЫ",
       id: 1,
       name: "микс куриму",
-      description: "Мороженное три вида: орех, васаби, имбирь",
+      description: "мороженное три вида: орех, васаби, имбирь",
       photo: `${Desert1}`,
       price: 199,
       weight: 180

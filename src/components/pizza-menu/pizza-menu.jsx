@@ -1,11 +1,8 @@
 import React from "react"
 import "../item-menu/item-menu.css"
 import { ItemMenu } from "../item-menu/item-menu"
-import Tofu from "../images/Menu/tofu/tofu.png"
-import Tofu2 from "../images/Menu/tofu/tofu2.png"
-import Tofu3 from "../images/Menu/tofu/tofu3.png"
-import Tofu4 from "../images/Menu/tofu/tofu4.png"
-import Tofu5 from "../images/Menu/tofu/tofu5.png"
+import Pizza1 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
+
 
 
 const PizzaMenu = () => {
@@ -14,49 +11,49 @@ const PizzaMenu = () => {
             category: "ПИЦЦА",
             id: 1,
             name: "пицца пепперони",
-            photo: `${Tofu}`,
+            photo: `${Pizza1}`,
             price: 425
         },
         {
             id: 2,
             name: "пицца альфредо",
-            photo: `${Tofu2}`,
+            photo: `${Pizza1}`,
             price: 465
         },
         {
             id: 3,
             name: "пицца чили",
-            photo: `${Tofu3}`,
+            photo: `${Pizza1}`,
             price: 485
         },
         {
             id: 4,
             name: "пицца 4 сыра",
-            photo: `${Tofu4}`,
+            photo: `${Pizza1}`,
             price: 465
         },
         {
             id: 5,
             name: "пицца мясная",
-            photo: `${Tofu4}`,
+            photo: `${Pizza1}`,
             price: 525
         },
         {
             id: 6,
             name: "пицца морская",
-            photo: `${Tofu5}`,
+            photo: `${Pizza1}`,
             price: 625
         },
         {
             id: 7,
             name: "пицца цезарь с курицей",
-            photo: `${Tofu4}`,
+            photo: `${Pizza1}`,
             price: 395
         },
         {
             id: 8,
             name: "пирог с вишней",
-            photo: `${Tofu5}`,
+            photo: `${Pizza1}`,
             price: 345
         }
     ];

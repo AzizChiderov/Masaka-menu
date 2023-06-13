@@ -1,5 +1,8 @@
 import React from "react"
 import { ItemMenu } from "../item-menu/item-menu"
+import Ramen1 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
+
+
 
 
 
@@ -9,49 +12,49 @@ const RamenMenu = () => {
             category: "Рамен",
             id: 1,
             name: "рамен ассорти",
-            // photo: `${Tofu}`,
+            photo: `${Ramen1}`,
             price: 400
         },
         {
             id: 2,
             name: "мисо рамен",
-            // photo: `${Tofu}`,
+            photo: `${Ramen1}`,
             price: 295
         },
         {
             id: 3,
             name: "рамен с копченным куринным филе",
-            // photo: `${Tofu}`,
+            photo: `${Ramen1}`,
             price: 345
         },
         {
             id: 4,
             name: "кимчи рамен",
-            // photo: `${Tofu}`,
+            photo: `${Ramen1}`,
             price: 295
         },
         {
             id: 5,
             name: "токпоки рамен",
-            // photo: `${Tofu}`,
+            photo: `${Ramen1}`,
             price: 250
         },
         {
             id: 6,
             name: "рамен с тофу",
-            // photo: `${Tofu}`,
+            photo: `${Ramen1}`,
             price: 250
         },
         {
             id: 7,
             name: "эноки рамен",
-            // photo: `${Tofu}`,
+            photo: `${Ramen1}`,
             price: 330
         },
         {
             id: 8,
             name: "жаренный рамен",
-            // photo: `${Tofu}`,
+            photo: `${Ramen1}`,
             price: 345
         }
     ];
