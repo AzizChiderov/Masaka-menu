@@ -14,6 +14,7 @@ import Snack9 from "../images/Menu/snack/snack9.png"
 const SnackMenu = () => {
     const snacks = [
         {
+            category: "ЗАКУСКИ",
             id: 1,
             name: "блюдо сями императорская трапеза",
             description: "Сями традиционное корейское блюдо, который состоит из свежих ингридиентов. Контраст вкуса собранного сета дает незабываемое ощущение",
@@ -89,7 +90,6 @@ const SnackMenu = () => {
 
   return (
     <div className="item-menu">
-      <h1 className='font'>ЗАКУСКИ</h1>
       <ItemMenu items={snacks} />
     </div>
   );

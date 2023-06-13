@@ -23,12 +23,13 @@ import { DesertPage } from './Pages/Deserts/desert';
 import { DrinksPage } from './Pages/Drinks/drink'
 import { RamenPage } from './Pages/ramen';
 import Nav from './Pages/Home/home'
+// import Nav from './Pages/Home/home'
 
 
 export const App = () => {
   return (
     <BrowserRouter>
-      <Nav />
+      {/* <Nav /> */}
       <Routes>
         <Route path='/' element={<Layout />} >
           <Route path='/' element={<BuisneslunchPage />} />

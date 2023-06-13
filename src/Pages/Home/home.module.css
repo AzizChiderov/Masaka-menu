@@ -6,6 +6,8 @@
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    border-bottom: 20px solid black;
+
 }
 .box {
     width: 100%;

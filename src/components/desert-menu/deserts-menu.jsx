@@ -6,34 +6,34 @@ import Desert2 from "../images/Menu/desert/desert2.png"
 import Desert3 from "../images/Menu/desert/desert3.png"
 
 const DesertMenu = () => {
-    const deserts = [
-        {
-            id: 1,
-            name: "микс куриму",
-            description: "Мороженное три вида: орех, васаби, имбирь",
-            photo: `${Desert1}`,
-            price: 199,
-            weight: 180
-        },
-        {
-            id: 2,
-            name: "моти",
-            photo: `${Desert2}`,
-            price: 240,
-            count: 1
-        },
-        {
-            id: 3,
-            name: "десертные роллы",       
-            photo: `${Desert3}`,
-            price: 250,
-            weight: 150 
-        }
-    ];
+  const deserts = [
+    {
+      category: "ДЕСЕРТЫ",
+      id: 1,
+      name: "микс куриму",
+      description: "Мороженное три вида: орех, васаби, имбирь",
+      photo: `${Desert1}`,
+      price: 199,
+      weight: 180
+    },
+    {
+      id: 2,
+      name: "моти",
+      photo: `${Desert2}`,
+      price: 240,
+      count: 1
+    },
+    {
+      id: 3,
+      name: "десертные роллы",
+      photo: `${Desert3}`,
+      price: 250,
+      weight: 150
+    }
+  ];
 
   return (
     <div className="item-menu">
-      <h1 className='font'>ДЕСЕРТЫ</h1>
       <ItemMenu items={deserts} />
     </div>
   );

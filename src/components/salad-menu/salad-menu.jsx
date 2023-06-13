@@ -22,6 +22,7 @@ import Salad17 from "../images/Menu/salad/salad17.png"
 const SaladMenu = () => {
     const salads = [
         {
+            category: "САЛАТЫ",
             id: 1,
             name: "салат с семгой",
             description: "Микс из салатов, лоло росса, шпината, авокадо, марокканским кускусом и ореховым соусом",
@@ -89,11 +90,11 @@ const SaladMenu = () => {
             id: 9,
             name: "салат греческий",
             ingredients: [
-                "Помидоры", 
+                "Помидоры",
                 "огурцы",
-                "маслины", 
+                "маслины",
                 "сыр фетакса",
-                "красный лук", 
+                "красный лук",
                 "микс салата", "оливковое масло"
             ],
             photo: `${Salad9}`,
@@ -187,12 +188,11 @@ const SaladMenu = () => {
         }
     ];
 
-  return (
-    <div className="item-menu">
-      <h1 className='font'>САЛАТЫ</h1>
-      <ItemMenu items={salads} />
-    </div>
-  );
+    return (
+        <div className="item-menu">
+            <ItemMenu items={salads} />
+        </div>
+    );
 };
 
 export default SaladMenu;

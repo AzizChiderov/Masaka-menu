@@ -13,6 +13,7 @@ import backedRoll8 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
 const BakedRollsMenu = () => {
     const bakedRolls = [
         {
+            category: "ЗАПЕЧЕННЫЕ РОЛЛЫ",
             id: 1,
             name: "Ролл гейша",
             description: " Нежный сыр тобико огурцы семга угорь, соус ширача.",
@@ -81,7 +82,6 @@ const BakedRollsMenu = () => {
 
     return (
         <div className="item-menu">
-            <h1 className='font'>ЗАПЕЧЕННЫЕ РОЛЛЫ</h1>
             <ItemMenu items={bakedRolls} />
         </div>
     );

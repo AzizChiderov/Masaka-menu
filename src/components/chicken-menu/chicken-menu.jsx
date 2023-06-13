@@ -27,6 +27,7 @@ import Chicken22 from "../images/Menu/chicken/chicken22.png"
 const ChickenMenu = () => {
     const chickens = [
         {
+            category: "БЛЮДА С КУРИЦЕЙ",
             id: 1,
             name: "цыпленок под деревенским соусом",            
             description: "запеченное филе цыпленка со свежими листьями салата, под деревенским соусом",
@@ -198,7 +199,6 @@ const ChickenMenu = () => {
 
   return (
     <div className="item-menu">
-      <h1 className='font'>БЛЮДА С КУРИЦЕЙ</h1>
       <ItemMenu items={chickens} />
     </div>
   );

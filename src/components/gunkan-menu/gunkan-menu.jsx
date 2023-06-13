@@ -12,6 +12,7 @@ import Gunkan7 from "../images/Menu/gunkan/susi7.png"
 const GunkanMenu = () => {
     const gunkans = [
         {
+            category: "ГУНКАНЫ И СУСИ",
             id: 1,
             name: "гункан с крабом",
             photo: `${Gunkan1}`,
@@ -64,7 +65,6 @@ const GunkanMenu = () => {
 
   return (
       <div className="item-menu">
-        <h1 className="font">ГУНКАНЫ И СУСИ</h1>
       <ItemMenu items={gunkans} />
     </div>
   );

@@ -10,7 +10,7 @@
   width: 100%;
   z-index: 9999;
   background-color: #800000;
-  padding: 10px 0;
+  /* padding: 10px 0; */
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); 
   transition: 5s;
 }
@@ -25,7 +25,7 @@
   white-space: nowrap;
   transition: top 0.3s ease-in-out;
   min-width: 100%;
-  padding: 10px; 
+  /* padding: 10px;  */
 }
 
 .link-wrapper::-webkit-scrollbar {
@@ -35,7 +35,7 @@
 .link {
   display: inline-block;
   padding: 10px;
-  margin: 5px;
+  margin: 15px 5px 0 5px;
   background-color: #fffff0;
   color: black;
   text-decoration: none;

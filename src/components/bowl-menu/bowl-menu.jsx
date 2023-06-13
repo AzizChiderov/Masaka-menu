@@ -12,6 +12,7 @@ import { ItemMenu } from "../item-menu/item-menu";
 const BowlMenu = () => {
     const bowls = [
         {
+            category: "БОУЛЫ",
             id: 1,
             name: "поке боул с курицей",
             description: "мягко обжаренная курица в соусе теряки с кукурузой, фасолью и овощной заправкой.",
@@ -64,7 +65,6 @@ const BowlMenu = () => {
 
   return (
     <div className="item-menu">
-      <h1 className='font'>БОУЛЫ</h1>
       <ItemMenu items={bowls} />
     </div>
   );
