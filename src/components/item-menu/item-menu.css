@@ -18,10 +18,10 @@
     font-weight: bold;
     white-space: nowrap;
     overflow: hidden;
-    animation: waveSnakeAnimation 2s linear infinite;
+    /* animation: waveSnakeAnimation 2s linear infinite; */
   }
   
-  @keyframes waveSnakeAnimation {
+  /* @keyframes waveSnakeAnimation {
     0% {
       transform: translateX(0);
     }
@@ -37,7 +37,7 @@
     100% {
       transform: translateX(0);
     }
-  }
+  } */
   
   
 .item-card {
