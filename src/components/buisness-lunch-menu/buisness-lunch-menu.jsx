@@ -12,7 +12,7 @@ const BuisnessLunchMenu = () => {
     const lunches = [
 
         {
-            category: "Бизнес Ланчы",
+            category: "Бизнес Ланчи",
             id: 1,
             name: "Бизнес ланч Азия",
             ingredients: [
