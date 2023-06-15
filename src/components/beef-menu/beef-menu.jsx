@@ -4,8 +4,8 @@ import { ItemMenu } from "../item-menu/item-menu";
 import Beef1 from "../images/Menu/beef/beef1.png"
 import Beef2 from "../images/Menu/beef/beef2.png"
 import Beef3 from "../images/Menu/beef/beef3.png"
-import Beef4 from "../images/Menu/beef/beef4.png"
-import Beef5 from "../images/Menu/beef/beef5.png"
+import Beef4 from "../images/Menu/beef/beef4.jpg"
+import Beef5 from "../images/Menu/beef/beef5.jpg"
 import Beef6 from "../images/Menu/beef/beef6.png"
 import Beef7 from "../images/Menu/beef/beef7.png"
 

@@ -85,7 +85,7 @@
     height: 250px;
     border-radius: 10px;
     margin-bottom: 20px;
-    object-fit: auto;
+    object-fit: cover;
     object-position: 50% 50%;
     transition: transform 0.5s;
 }

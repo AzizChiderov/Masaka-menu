@@ -3,10 +3,10 @@ import "../item-menu/item-menu.css";
 import { ItemMenu } from "../item-menu/item-menu";
 import Set1 from "../images///Menu/set/set1.png"
 import Set2 from "../images///Menu/set/set2.png"
-import Set3 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
-import Set4 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
-import Set5 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
-import Set6 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
+import Set3 from '../images/Menu/set/Масака.png'
+import Set4 from '../images/Menu/set/Семейный.png'
+import Set5 from '../images/Menu/set/ХОТ.png'
+import Set6 from '../images/Menu/set/Классический.png'
 import Set7 from '../images/Menu/set/set7.jpg'
 import Set8 from '../images/Menu/set/set8.jpg'
 import Set9 from '../images/Menu/set/set9.jpg'

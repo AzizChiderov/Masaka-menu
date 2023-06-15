@@ -9,6 +9,8 @@ import backedRoll5 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
 import backedRoll6 from '../images/Menu/baked-roll/baked-roll6.png'
 import backedRoll7 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
 import backedRoll8 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
+import backedRoll9 from '../images/Menu/baked-roll/baked-roll9.jpg'
+import backedRoll10 from '../images/Menu/baked-roll/baked-roll10.jpg'
 
 const BakedRollsMenu = () => {
     const bakedRolls = [
@@ -49,7 +51,7 @@ const BakedRollsMenu = () => {
             id: 5,
             name: "ГОДЗИЛЛА",
             description: "тигровая креветка, нежный сыр, тобико, масака соус.",
-            photo: `${backedRoll5}`,
+            photo: `${backedRoll9}`,
             price: 475,
             weight: 260
         },
@@ -66,7 +68,7 @@ const BakedRollsMenu = () => {
             id: 7,
             name: "ДАМА В КРАСНОМ",
             description: "семга, снежный краб, огурец. нежный сыр, тобико, масака соус.",
-            photo: `${backedRoll7}`,
+            photo: `${backedRoll10}`,
             price: 405,
             weight: 290
         },
