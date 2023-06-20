@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useQuery } from "react-query";
 import Home from "../../Pages/Home/home";
 
 export const ItemMenu = (props) => {
@@ -19,32 +18,20 @@ export const ItemMenu = (props) => {
     }
   };
 
-  const categoriesQuery = useQuery("categories", () =>
-    fetchCategoriesData(props.items)
-  );
+  const categories = [...new Set(props.items.map((item) => item.category))];
 
-  const itemsQuery = useQuery("items", () => fetchItemsData(props.items));
-
-  if (categoriesQuery.isLoading || itemsQuery.isLoading) {
-    return <div>Loading...</div>;
-  }
-
-  if (categoriesQuery.isError || itemsQuery.isError) {
-    return <div>Error fetching data</div>;
-  }
-
-  const categories = categoriesQuery.data;
-  const items = itemsQuery.data;
 
   return (
     <>
       {!selectedItem && <Home />}
 
       {categories.map((category) => (
-        <h1 key={category}>{category}</h1>
+        <h1 key={category}>
+          {category}
+        </h1>
       ))}
       <div className="item-container">
-        {items.map((item) => (
+        {props.items.map((item) => (
           <div
             className="item-card"
             onClick={() => openModal(item)}
@@ -60,7 +47,9 @@ export const ItemMenu = (props) => {
                 {item.weight && (
                   <p className="font_smaller">{item.weight} гр</p>
                 )}
-                {item.count && <p className="font_smaller">{item.count} шт</p>}
+                {item.count && (
+                  <p className="font_smaller">{item.count} шт</p>
+                )}
               </div>
             </div>
             <div className="box">
@@ -124,7 +113,8 @@ export const ItemMenu = (props) => {
             {selectedItem.weight2 && (
               <p className="font_smaller">Вес: {selectedItem.weight2} гр</p>
             )}
-            {selectedItem.ingr && selectedItem.ingr.length > 0 && (
+            {selectedItem.ingr && selectedItem.ingr.length > 0 ? (
+
               <table>
                 <tbody>
                   {selectedItem.ingr.map((ingrItem, index) => (
@@ -141,29 +131,10 @@ export const ItemMenu = (props) => {
                   ))}
                 </tbody>
               </table>
-            )}
+            ) : null}
           </div>
         </div>
       )}
     </>
   );
-};
-
-// Функция для получения данных категорий
-const fetchCategoriesData = (items) => {
-  const categories = [...new Set(items.map((item) => item.category))];
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(categories);
-    }, 1000);
-  });
-};
-
-// Функция для получения данных пунктов меню
-const fetchItemsData = (items) => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(items);
-    }, 1000);
-  });
 };
