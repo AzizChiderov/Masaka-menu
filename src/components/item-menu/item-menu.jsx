@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import Nav from "../nav";
 import Home from "../../Pages/Home/home";
 
 export const ItemMenu = (props) => {
