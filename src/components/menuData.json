@@ -202,7 +202,7 @@
                 "сельдерей",
                 "специи"
             ],
-            "photo": "../images/Menu/lunch/lunch.png",
+            "photo": "https://www.linkpicture.com/q/lunch2.png",
             "price": 475
         },
         {
@@ -214,7 +214,7 @@
                 "рис",
                 "том ям"
             ],
-            "photo": "../images/Menu/lunch/lunch3.png",
+            "photo": "https://www.linkpicture.com/q/lunch2.png",
             "price": 455
         },
         {
@@ -228,7 +228,7 @@
                 "калифорния с семгой",
                 "кимчи"
             ],
-            "photo": "../images/Menu/lunch/lunch4.png",
+            "photo": "https://www.linkpicture.com/q/lunch2.png",
             "price": 295
         },
         {
@@ -241,7 +241,7 @@
                 "салат",
                 "мимо суп"
             ],
-            "photo": "../images/Menu/lunch/lunch5.png",
+            "photo": "https://www.linkpicture.com/q/lunch2.png",
             "price": 335
         },
         {
@@ -253,7 +253,7 @@
                 "караи тофу",
                 "мисо суп"
             ],
-            "photo": "../images/Menu/lunch/lunch6.png",
+            "photo": "https://www.linkpicture.com/q/lunch2.png",
             "price": 235
         }
     ],
