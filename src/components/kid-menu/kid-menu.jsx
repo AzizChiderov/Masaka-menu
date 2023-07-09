@@ -4,6 +4,11 @@ import { ItemMenu } from "../item-menu/item-menu";
 import Kid1 from "../images/Menu/kids/kid1.png"
 import Kid2 from "../images/Menu/kids/kid2.png"
 import Kid3 from "../images/Menu/baked-roll/MASAKA SUSHI.png"
+import Kid4 from "../images/Menu/kids/kids4.jpg"
+import Kid5 from "../images/Menu/kids/kids5.jpg"
+import Kid6 from "../images/Menu/kids/kids6.jpg"
+import Kid7 from "../images/Menu/kids/kids7.jpg"
+import bread from "../images/Menu/kids/bread.jpg"
 
 const KidMenu = () => {
   const kids = [
@@ -11,19 +16,19 @@ const KidMenu = () => {
       category: "ДЕТСКОЕ МЕНЮ",
       id: 1,
       name: "куриный бульон с лапшой ",
-      photo: `${Kid3}`,
+      photo: `${Kid5}`,
       price: 220
     },
     {
       id: 2,
       name: "фрикадельки с вермишелью",
-      photo: `${Kid3}`,
+      photo: `${Kid7}`,
       price: 200
     },
     {
       id: 3,
       name: "сосиски с киндер фри",
-      photo: `${Kid3}`,
+      photo: `${Kid4}`,
       price: 245
     },
     {
@@ -41,13 +46,13 @@ const KidMenu = () => {
     {
       id: 6,
       name: "чикен болл с пюре",
-      photo: `${Kid3}`,
+      photo: `${Kid6}`,
       price: 245
     },
     {
       id: 7,
       name: "хлебная корзина",
-      photo: `${Kid3}`,
+      photo: `${bread}`,
       price: 205,
       name2: "багет",
       price2: 80

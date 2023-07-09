@@ -3,11 +3,10 @@ import "../item-menu/item-menu.css";
 import { ItemMenu } from "../item-menu/item-menu";
 import Gunkan1 from "../images/Menu/gunkan/susi1.png"
 import Gunkan2 from "../images/Menu/gunkan/susi3.png"
-import Gunkan3 from "../images/Menu/gunkan/susi5.png"
+import Gunkan3 from "../images/Menu/gunkan/susi5.jpg"
 import Gunkan4 from "../images/Menu/gunkan/susi2.png"
-import Gunkan5 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
-import Gunkan6 from '../images/Menu/baked-roll/MASAKA SUSHI.png'
 import Gunkan7 from "../images/Menu/gunkan/susi7.png"
+import Gunkan8 from "../images/Menu/gunkan/susi8.jpg"
 
 const GunkanMenu = () => {
     const gunkans = [
@@ -43,14 +42,14 @@ const GunkanMenu = () => {
         {
             id: 5,
             name: "суси из семги",
-            photo: `${Gunkan5}`,
+            photo: `${Gunkan8}`,
             weight: "55",
             price: 135
         },
         {
             id: 6,
             name: "суси из креветки",
-            photo: `${Gunkan6}`,
+            photo: `${Gunkan8}`,
             weight: "55",
             price: 115
         },

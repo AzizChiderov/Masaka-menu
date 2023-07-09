@@ -17,7 +17,7 @@ import { GunkanPage } from './Pages/Gunkan/gunkan';
 import { RollsPage } from './Pages/Rolls/roll';
 import { BackedRollsPage } from './Pages/Baked_rolls/baked_rolls';
 import { TempuraRollsPage } from './Pages/Tempura_rolls/tempura_rolls';
-import { SetsPage } from './Pages/Sets/set';
+// import { SetsPage } from './Pages/Sets/set';
 import { KidsMenuPage } from './Pages/Kid_menu/kid_menu';
 import { DesertPage } from './Pages/Deserts/desert';
 import { DrinksPage } from './Pages/Drinks/drink'
@@ -47,7 +47,7 @@ export const App = () => {
           <Route path='/rolls' element={<RollsPage />} />
           <Route path='/baked-rolls' element={<BackedRollsPage />} />
           <Route path='/tempura-rolls' element={<TempuraRollsPage />} />
-          <Route path='/sets' element={<SetsPage />} />
+          {/* <Route path='/sets' element={<SetsPage />} /> */}
           <Route path='/kids-menu' element={<KidsMenuPage />} />
           <Route path='/deserts' element={<DesertPage />} />
           <Route path='/drinks' element={<DrinksPage />} />

@@ -15,9 +15,9 @@ import Salad11 from "../images/Menu/salad/salad11.png"
 import Salad12 from "../images/Menu/salad/salad12.png"
 import Salad13 from "../images/Menu/salad/salad13.png"
 import Salad14 from "../images/Menu/salad/salad14.png"
-import Salad15 from "../images/Menu/salad/salad15.png"
+import Salad15 from "../images/Menu/salad/salad15.jpg"
 import Salad16 from "../images/Menu/salad/salad16.png"
-import Salad17 from "../images/Menu/salad/salad17.png"
+import Salad17 from "../images/Menu/salad/salad17.jpg"
 
 const SaladMenu = () => {
     const salads = [
