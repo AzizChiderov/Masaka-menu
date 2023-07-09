@@ -5,7 +5,7 @@
             "id": 1,
             "name": "поке боул с курицей",
             "description": "мягко обжаренная курица в соусе терияки с кукурузой, фасолью и овощной заправкой.",
-            "photo": "../images/Menu/backedRoll/backedRoll1.png",
+            "photo": "https://www.linkpicture.com/q/pizza4.jpg",
             "price": 415,
             "weight": 480
         },
@@ -13,7 +13,7 @@
             "id": 2,
             "name": "поке боул вегетерианский",
             "description": "поке боул веган с овощами и витаминной бомбой по-азиатски",
-            "photo": "../images/Menu/bowl/bowl2.jpg",
+            "photo": "https://www.linkpicture.com/q/pizza6.jpg",
             "price": 375,
             "weight": 440
         },
