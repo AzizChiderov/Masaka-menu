@@ -2233,7 +2233,7 @@
             "id": 1,
             "name": "форель под соусом баже",
             "description": "нежная форель подается с ореховым соусом баже и свежим салатом",
-            "photo": "https://i.ibb.co/1Z0ssRH/fish1.png",
+            "photo": "https://i.ibb.co/4Nd9b1V/fish1.jpg",
             "weight": "390",
             "price": 690
         },
@@ -2241,7 +2241,7 @@
             "id": 2,
             "name": "саба гриль",
             "description": "скумбрия со свежими овощами в пикантом соусе",
-            "photo": "https://i.ibb.co/NmQHQFW/fish2.png",
+            "photo": "https://i.ibb.co/Br6zprX/fish2.jpg",
             "weight": "300",
             "price": 335
         },
@@ -2257,7 +2257,7 @@
             "id": 4,
             "name": "хрустящий судак с брокколи",
             "description": "филе судака со свежими брокколи, с оригинальным и пикантным соусом",
-            "photo": "https://i.ibb.co/gv9dfP5/fish4.png",
+            "photo": "https://i.ibb.co/pPv43jG/fish4.jpg",
             "weight": "300",
             "price": 495
         },
@@ -2265,7 +2265,7 @@
             "id": 5,
             "name": "семга в соусе песто",
             "description": "запеченное филе семги с картофельными клиньями в соусе песто",
-            "photo": "https://i.ibb.co/s9Grbwn/fish5.png",
+            "photo": "https://i.ibb.co/x3dsN9D/fish5.jpg",
             "weight": "340",
             "price": 525
         },
@@ -2273,7 +2273,7 @@
             "id": 6,
             "name": "унаги семга",
             "description": "стейк из семги с соусом унаги и шпинатом",
-            "photo": "https://i.ibb.co/8YRdGgM/fish6.png",
+            "photo": "https://i.ibb.co/7jtYthG/fish6.jpg",
             "weight": "340",
             "price": 525
         }
