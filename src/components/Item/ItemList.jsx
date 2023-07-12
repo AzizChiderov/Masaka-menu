@@ -17,7 +17,7 @@ const ItemList = ({ items, openModal, ErrorImg }) => {
           onClick={(event) => handleImageClick(item, event)}
           key={item.id}
         >
-          <p>{item.id}</p>
+          {/* <p>{item.id}</p> */}
           <img
             className="item-photo"
             alt={item.name}
