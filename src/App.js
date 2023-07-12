@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout/index.jsx';
+import Layout from './components/Layout';
 import Вynamicpage from './page/Вynamicpage/Вynamicpage.jsx'
 import Drinkspage from './page/Drinkspage/Drinkspage.jsx'
 

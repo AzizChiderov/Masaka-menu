@@ -2,10 +2,6 @@
     display: flex;
     width: 100%;
     height: auto;
-    background-image: url(../../image/JPG/HeaderBg.jpg);
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
     border-bottom: 20px solid black;
 
 }

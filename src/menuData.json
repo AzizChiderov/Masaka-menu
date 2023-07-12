@@ -2167,5 +2167,222 @@
             }
           ]
         }
-      ]
+      ],
+      "beef": [
+        {
+            "category": "БЛЮДА С ГОВЯДИНОЙ",
+            "id": 1,
+            "name": "тамагодон",
+            "description": "рис с говядиной в соусе терияки, с ростками фасоли, кимчи, с яйцом по-азиатски",
+            "photo": "https://i.ibb.co/DR2sVtt/beef1.png",
+            "weight": "390",
+            "price": 305
+        },
+        {
+            "id": 2,
+            "name": "гю эноки",
+            "description": "хрустящие грибы эноки завернутые в нежном филе говядины, соусом кимчи и свит чили",
+            "photo": "https://i.ibb.co/mFMS3N0/beef2.png",
+            "weight": "320",
+            "price": 545
+        },
+        {
+            "id": 3,
+            "name": "бонкацу",
+            "description": "закрученное бон-филе с голландским сыром гауда, в кисло-сладком соусе тонкацу",
+            "photo": "https://i.ibb.co/Pr1cg9W/beef3.png",
+            "weight": "300",
+            "price": 595
+        },
+        {
+            "id": 4,
+            "name": "медальоны с лимон райс",
+            "description": "медальоны с лимон райс, в сливочно-грибном соусе",
+            "photo": "https://i.ibb.co/xqQ2RcQ/beef4.png",
+            "weight": "360",
+            "price": 695
+        },
+        {
+            "id": 5,
+            "name": "эдамаме гю стейк",
+            "description": "стейк, маринованный в пряном перце, прожаренный до шоколадной корочки. Подается с соусом Биск",
+            "photo": "https://i.ibb.co/L6VbQbx/beef5.png",
+            "weight": "310",
+            "price": 695
+        },
+        {
+            "id": 6,
+            "name": "нихон стейк с брокколи",
+            "description": "нежный стейк из филе говядины, маринованный в соусе кимчи, пропитанный соусом терияки со свежей брокколи",
+            "photo": "https://i.ibb.co/jLNnKGr/beef6.png",
+            "weight": "340",
+            "price": 685
+        },
+        {
+            "id": 7,
+            "name": "бон филе с токпоками",
+            "description": "корейские рисовые палочки с говяжьей вырезкой и овощами в кисло-остром соусе",
+            "photo": "https://i.ibb.co/9wFYxFx/beef7.png",
+            "weight": "330",
+            "price": 455
+        }
+    ],
+    "fish": [
+        {
+            "category": "БЛЮДА ИЗ РЫБЫ",
+            "id": 1,
+            "name": "форель под соусом баже",
+            "description": "нежная форель подается с ореховым соусом баже и свежим салатом",
+            "photo": "https://i.ibb.co/1Z0ssRH/fish1.png",
+            "weight": "390",
+            "price": 690
+        },
+        {
+            "id": 2,
+            "name": "саба гриль",
+            "description": "скумбрия со свежими овощами в пикантом соусе",
+            "photo": "https://i.ibb.co/NmQHQFW/fish2.png",
+            "weight": "300",
+            "price": 335
+        },
+        {
+            "id": 3,
+            "name": "морской язык в конверте",
+            "description": "филе рыбы морского языка с отварными картофельными дольками со сливочным масломм и миксом сыров",
+            "photo": "https://i.ibb.co/Qd52vJ2/fish3.png",
+            "weight": "350",
+            "price": 305
+        },
+        {
+            "id": 4,
+            "name": "хрустящий судак с брокколи",
+            "description": "филе судака со свежими брокколи, с оригинальным и пикантным соусом",
+            "photo": "https://i.ibb.co/gv9dfP5/fish4.png",
+            "weight": "300",
+            "price": 495
+        },
+        {
+            "id": 5,
+            "name": "семга в соусе песто",
+            "description": "запеченное филе семги с картофельными клиньями в соусе песто",
+            "photo": "https://i.ibb.co/s9Grbwn/fish5.png",
+            "weight": "340",
+            "price": 525
+        },
+        {
+            "id": 6,
+            "name": "унаги семга",
+            "description": "стейк из семги с соусом унаги и шпинатом",
+            "photo": "https://i.ibb.co/8YRdGgM/fish6.png",
+            "weight": "340",
+            "price": 525
+        }
+    ],
+      "links":[
+        {
+            "id": 1,
+            "text": "Бизнес Ланчи",
+            "route": "/buisness-lunch"
+        },
+        {
+            "id": 2,
+            "text": "Боулы",
+            "route": "/bowls"
+        },
+        {
+            "id": 3,
+            "text": "Блюда из тофу",
+            "route": "/tofu"
+        },
+        {
+            "id": 20,
+            "text": "Пицца",
+            "route": "/pizza"
+        },
+        {
+            "id": 21,
+            "text": "Рамен",
+            "route": "/ramen"
+        },
+        {
+            "id": 4,
+            "text": "Супы",
+            "route": "/soup"
+        },
+        {
+            "id": 5,
+            "text": "Салаты",
+            "route": "/salads"
+        },
+        {
+            "id": 6,
+            "text": "Закуски",
+            "route": "/snacks"
+        },
+        {
+            "id": 7,
+            "text": "Блюда из курицы",
+            "route": "/chicken"
+        },
+        {
+            "id": 8,
+            "text": "Блюда из говядины",
+            "route": "/beef"
+        },
+        {
+            "id": 9,
+            "text": "Блюда из рыбы",
+            "route": "/fish"
+        },
+        {
+            "id": 10,
+            "text": "Блюда с лапшой",
+            "route": "/noodles"
+        },
+        {
+            "id": 11,
+            "text": "Воки",
+            "route": "/wok"
+        },
+        {
+            "id": 12,
+            "text": "Гунканы и Суси",
+            "route": "/gunkan"
+        },
+        {
+            "id": 13,
+            "text": "Роллы",
+            "route": "/rolls"
+        },
+        {
+            "id": 14,
+            "text": "Запеченные роллы",
+            "route": "/bakedRolls"
+        },
+        {
+            "id": 15,
+            "text": "Темпура роллы",
+            "route": "/tempuraRolls"
+        },
+        {
+            "id": 16,
+            "text": "Сеты",
+            "route": "/sets"
+        },
+        {
+            "id": 17,
+            "text": "Детское меню",
+            "route": "/kidsMenu"
+        },
+        {
+            "id": 18,
+            "text": "Десерты",
+            "route": "/deserts"
+        },
+        {
+            "id": 19,
+            "text": "Напитки",
+            "route": "/drinks"
+        }
+    ]
 }

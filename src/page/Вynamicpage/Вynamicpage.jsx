@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import menuData from "../../menuData.json";
 import './Вynamicpage.css'
 import Item from "../../components/Item/Item"
+import Bg from '../../image/JPG/itemBg.jpg'
 
 const Вynamicpage = () => {
   const location = useLocation();
@@ -12,7 +13,10 @@ const Вynamicpage = () => {
   const bakedRolls = menuData[lastWords];
   console.log(lastWords);
   return (
-     <div className="item-menu">
+     <div className="item-menu"  style={{
+      backgroundImage: `url(${Bg})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center"}}>
          <Item items={bakedRolls} />
      </div>
   );
