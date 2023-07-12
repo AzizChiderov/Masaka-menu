@@ -42,9 +42,9 @@ const Header = () => {
     };
   }, []);
 
-  useEffect(() => {
-    navigate("/buisness-lunch");
-  }, []);
+  // useEffect(() => {
+  //   navigate("/buisness-lunch");
+  // }, []);
   return (
     <div className={H.container} style={{
     backgroundImage: `url(${Bg})`,

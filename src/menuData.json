@@ -11,7 +11,7 @@
                 "корн дог",
                 "рамен классик"
             ],
-            "photo": "https://www.linkpicture.com/q/lunch2.png",
+            "photo": "https://i.ibb.co/2YdBPk0/lunch1.jpg",
             "price": 435
         },
         {
@@ -26,7 +26,7 @@
                 "сельдерей",
                 "специи"
             ],
-            "photo": "https://www.linkpicture.com/q/lunch2.png",
+            "photo": "https://i.ibb.co/XLJjpc4/lunch2.jpg",
             "price": 475
         },
         {
@@ -38,7 +38,7 @@
                 "рис",
                 "том ям"
             ],
-            "photo": "https://www.linkpicture.com/q/lunch2.png",
+            "photo": "https://i.ibb.co/rcSsP1g/lunch3.jpg",
             "price": 455
         },
         {
@@ -52,7 +52,7 @@
                 "калифорния с семгой",
                 "кимчи"
             ],
-            "photo": "https://www.linkpicture.com/q/lunch2.png",
+            "photo": "https://i.ibb.co/4j2TtX4/lunch4.jpg",
             "price": 295
         },
         {
@@ -65,7 +65,7 @@
                 "салат",
                 "мимо суп"
             ],
-            "photo": "https://www.linkpicture.com/q/lunch2.png",
+            "photo": "https://i.ibb.co/0BtGY5T/lunch5.jpg",
             "price": 335
         },
         {
@@ -77,7 +77,7 @@
                 "караи тофу",
                 "мисо суп"
             ],
-            "photo": "https://www.linkpicture.com/q/lunch2.png",
+            "photo": "https://i.ibb.co/XVnyQb4/lunch6.jpg",
             "price": 235
         }
     ],
@@ -1586,7 +1586,7 @@
             "семга",
             "снежный краб"
           ],
-          "photo": "",
+          "photo": "https://i.ibb.co/r2xVS4z/tempura1.png",
           "price": 355,
           "weight": 270
         },
@@ -1600,7 +1600,7 @@
             "сыр виола",
             "огурец"
           ],
-          "photo": "",
+          "photo": "https://nambafood.kg/dish_image/154065.png",
           "price": 345,
           "weight": 280
         },
@@ -1615,7 +1615,7 @@
             "фирменный соус",
             "пармезан"
           ],
-          "photo": "",
+          "photo": "https://nambafood.kg/dish_image/112291.png",
           "price": 345,
           "weight": 300
         },
@@ -1631,7 +1631,7 @@
             "унаги соус",
             "спайси соус"
           ],
-          "photo": "",
+          "photo": "https://nambafood.kg/dish_image/112292.png",
           "price": 345,
           "weight": 280
         },
@@ -1645,7 +1645,7 @@
             "огурец",
             "соус пармежано"
           ],
-          "photo": "",
+          "photo": "https://i.ibb.co/3RjKGTK/tempura5.png",
           "price": 345,
           "weight": 300
         },
@@ -1660,7 +1660,7 @@
             "авокадо",
             "кунжут"
           ],
-          "photo": "",
+          "photo": "https://i.ibb.co/Wv5nzNM/tempura6.png",
           "price": 445,
           "weight": 300
         },
@@ -1672,7 +1672,7 @@
             "нежный сыр",
             "соус унаги"
           ],
-          "photo": "",
+          "photo": "https://i.ibb.co/PDydbmg/tempura7.png",
           "price": 545,
           "weight": 300
         },
@@ -1685,7 +1685,7 @@
             "сыр виола",
             "ореховый соус"
           ],
-          "photo": "",
+          "photo": "https://nambafood.kg/dish_image/112297.png",
           "price": 345,
           "weight": 280
         }
@@ -1752,43 +1752,43 @@
             "category": "ДЕТСКОЕ МЕНЮ",
             "id": 1,
             "name": "куриный бульон с лапшой",
-            "photo": "https://i.ibb.co/Y8D91X2/kids5.jpg",
+            "photo": "https://i.ibb.co/9WpdFhQ/1.jpg",
             "price": 220
           },
           {
             "id": 2,
             "name": "фрикадельки с вермишелью",
-            "photo": "https://i.ibb.co/rc38VhR/kids7.jpg",
+            "photo": "https://i.ibb.co/yS3Xcsr/2.jpg",
             "price": 200
           },
           {
             "id": 3,
             "name": "сосиски с киндер фри",
-            "photo": "https://i.ibb.co/gjgGQqv/kids4.jpg",
+            "photo": "https://i.ibb.co/KNhftRJ/3.jpg",
             "price": 245
           },
           {
             "id": 4,
             "name": "фарфалле с осминожками и с сырными шариками",
-            "photo": "https://i.ibb.co/wcTbMRX/kid1.png",
+            "photo": "https://i.ibb.co/khjGnqM/4.jpg",
             "price": 250
           },
           {
             "id": 5,
             "name": "куриная котлета с фри",
-            "photo": "https://i.ibb.co/yQ1cVd8/kid2.png",
+            "photo": "https://i.ibb.co/n1FNcdx/5.jpg",
             "price": 295
           },
           {
             "id": 6,
             "name": "чикен болл с пюре",
-            "photo": "https://i.ibb.co/7gt5HK7/kids6.jpg",
+            "photo": "https://i.ibb.co/H7sVmtg/6.jpg",
             "price": 245
           },
           {
             "id": 7,
             "name": "хлебная корзина",
-            "photo": "https://i.ibb.co/st8zgC7/bread.jpg",
+            "photo": "https://i.ibb.co/yfzC1Z0/bb.jpg",
             "price": 205,
             "name2": "багет",
             "price2": 80
