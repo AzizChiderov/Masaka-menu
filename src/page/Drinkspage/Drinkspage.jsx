@@ -1,8 +1,8 @@
 import React,{useState,useEffect} from 'react';
 import menuData from "../../menuData.json";
 import style from './Drinkspage.module.css'
-import Bg from '../../image/JPG/itemBg.jpg'
 import Loader from '../../components/Loader/Loader';
+import Bg from '../../image/JPG/itemBg.jpg'
 
 const Drinkspage = () => {
   const [drinks,setDrinks] = useState([])
@@ -15,11 +15,11 @@ const Drinkspage = () => {
   const [loading, setLoading] = useState(true);
 
   return (
-    <div className={style.itemContainer}>
-        <div className="item-menu"  style={{
+    <div className={style.itemContainer}  style={{
       backgroundImage: `url(${Bg})`,
       backgroundSize: "cover",
       backgroundPosition: "center"}}>
+        <div className="item-menu" >
         {loading ? <Loader /> : <div>   {drinks.map((drink) => (
       <div className={style.itemCard} key={drink.id}>
         <h2>{drink.name}</h2>

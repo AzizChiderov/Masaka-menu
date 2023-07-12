@@ -21,7 +21,10 @@ const Вynamicpage = () => {
     }, 2000);
   }, []);
   return (
-     <div className="item-menu">
+     <div className="item-menu" style={{
+      backgroundImage: `url(${Bg})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center"}}>
         {loading ? <Loader /> : <Item items={bakedRolls} />}
      </div>
   );

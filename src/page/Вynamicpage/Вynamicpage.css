@@ -1,8 +1,5 @@
 .item-menu {
     text-align: center;
-    background-image: url('../../image/JPG/itemBg.jpg');
-    background-size: 100%;
-    background-position: center;
     z-index: 2;
     padding-top: 30px;
 }
