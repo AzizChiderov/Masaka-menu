@@ -1,16 +1,26 @@
 import React,{useState,useEffect} from 'react';
 import menuData from "../../menuData.json";
 import style from './Drinkspage.module.css'
+import Bg from '../../image/JPG/itemBg.jpg'
+import Loader from '../../components/Loader/Loader';
 
 const Drinkspage = () => {
   const [drinks,setDrinks] = useState([])
   useEffect(() => {
     setDrinks(menuData.drinks)
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
   }, [])
-  
+  const [loading, setLoading] = useState(true);
+
   return (
     <div className={style.itemContainer}>
-    {drinks.map((drink) => (
+        <div className="item-menu"  style={{
+      backgroundImage: `url(${Bg})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center"}}>
+        {loading ? <Loader /> : <div>   {drinks.map((drink) => (
       <div className={style.itemCard} key={drink.id}>
         <h2>{drink.name}</h2>
         <table>
@@ -28,7 +38,8 @@ const Drinkspage = () => {
           </tbody>
         </table>
       </div>
-    ))}
+    ))}</div>}
+     </div>
   </div>
   );
 }
