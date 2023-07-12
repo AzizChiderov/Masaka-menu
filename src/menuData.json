@@ -179,49 +179,49 @@
             "category": "Пицца",
             "id": 1,
             "name": "ПИЦЦА ПЕППЕРОНИ",
-            "photo": "https://i.ibb.co/GCXp8zd/pizza1.jpg",
+            "photo": "https://i.ibb.co/HT8sj8Y/pizza1.jpg",
             "price": 425
         },
         {
             "id": 2,
             "name": "ПИЦЦА АЛЬФРЕДО",
-            "photo": "https://i.ibb.co/NFT55d0/pizza2.jpg",
+            "photo": "https://i.ibb.co/ww89Yfz/pizza2.jpg",
             "price": 465
         },
         {
             "id": 3,
             "name": "ПИЦЦА ЧИЛИ",
-            "photo": "https://i.ibb.co/Cs9h0zm/pizza3.jpg",
+            "photo": "https://i.ibb.co/3S4HZWB/pizza3.jpg",
             "price": 485
         },
         {
             "id": 4,
             "name": "ПИЦЦА 4 СЫРА",
-            "photo": "https://i.ibb.co/7SYktPz/pizza4.jpg",
+            "photo": "https://i.ibb.co/5vX0XRr/pizza4.jpg",
             "price": 495
         },
         {
             "id": 5,
             "name": "ПИЦЦА МЯСНАЯ",
-            "photo": "https://i.ibb.co/zrC4dwC/pizza5.jpg",
+            "photo": "https://i.ibb.co/1M7f0Pr/pizza5.jpg",
             "price": 525
         },
         {
             "id": 6,
             "name": "ПИЦЦА МОРСКАЯ",
-            "photo": "https://i.ibb.co/WkB4hrH/pizza6.jpg",
+            "photo": "https://i.ibb.co/Pjv5sZv/pizza6.jpg",
             "price": 625
         },
         {
             "id": 7,
             "name": "ПИЦЦА ЦЕЗАРЬ С КУРИЦЕЙ",
-            "photo": "https://i.ibb.co/Z6zymqb/pizza7.jpg",
+            "photo": "https://i.ibb.co/C2RxTfD/pizza7.jpg",
             "price": 395
         }
         ,   {
             "id": 8,
             "name": "ПИРОГ С ВИШНЕЙ",
-            "photo": "https://i.ibb.co/8KggnMx/pizza8.jpg",
+            "photo": "https://i.ibb.co/jwCcjKW/pizza8.jpg",
             "price": 345
         }
     ],
