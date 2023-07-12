@@ -230,49 +230,49 @@
             "category": "РАМЕН",
             "id": 1,
             "name": "РАМЕН АССОРТИ",
-            "photo": "https://i.ibb.co/WfKHXzq/ramen1.jpg",
+            "photo": "https://i.ibb.co/7Y99VNL/ramen1.jpg",
             "price": 400
         },
         {
             "id": 2,
             "name": "МИСО РАМЕН",
-            "photo": "https://i.ibb.co/HpLt92W/ramen2.jpg",
+            "photo": "https://i.ibb.co/0qgMJGN/ramen2.jpg",
             "price": 295
         },
         {
             "id": 3,
             "name": "РАМЕН С КОПЧЕННЫМ КУРИННЫМ ФИЛЕ",
-            "photo": "https://i.ibb.co/rc17hrK/ramen3.jpg",
+            "photo": "https://i.ibb.co/6NkFM8p/ramen3.jpg",
             "price": 345
         },
         {
             "id": 4,
             "name": "КИМЧИ РАМЕН",
-            "photo": "https://i.ibb.co/pQgJp95/ramen4.jpg",
+            "photo": "https://i.ibb.co/G7C3v93/ramen4.jpg",
             "price": 295
         },
         {
             "id": 5,
             "name": "ТОКПОКИ РАМЕН",
-            "photo": "https://i.ibb.co/wy7d59D/ramen5.jpg",
+            "photo": "https://i.ibb.co/j8FZf8g/ramen5.jpg",
             "price": 250
         },
         {
             "id": 6,
             "name": "РАМЕН С ТОФУ",
-            "photo": "https://i.ibb.co/Wch9sF9/ramen6.jpg",
+            "photo": "https://i.ibb.co/PYSsjSC/ramen6.jpg",
             "price": 250
         },
         {
             "id": 7,
             "name": "ЭНОКИ РАМЕН",
-            "photo": "https://i.ibb.co/xFT4GQ0/ramen7.jpg",
+            "photo": "https://i.ibb.co/7SkdgG3/ramen7.jpg",
             "price": 330
         },
         {
             "id": 8,
             "name": "ЖАРЕННЫЙ РАМЕН",
-            "photo": "https://i.ibb.co/6Ff8Gzw/ramen8.jpg",
+            "photo": "https://i.ibb.co/9s4Dkwy/ramen8.jpg",
             "price": 345
         }
     ],
