@@ -179,49 +179,49 @@
             "category": "Пицца",
             "id": 1,
             "name": "ПИЦЦА ПЕППЕРОНИ",
-            "photo": "https://i.ibb.co/HT8sj8Y/pizza1.jpg",
+            "photo": "https://i.ibb.co/xHzW9z2/pizza1.jpg",
             "price": 425
         },
         {
             "id": 2,
             "name": "ПИЦЦА АЛЬФРЕДО",
-            "photo": "https://i.ibb.co/ww89Yfz/pizza2.jpg",
+            "photo": "https://i.ibb.co/z4RmC9p/pizza2.jpg",
             "price": 465
         },
         {
             "id": 3,
             "name": "ПИЦЦА ЧИЛИ",
-            "photo": "https://i.ibb.co/3S4HZWB/pizza3.jpg",
+            "photo": "https://i.ibb.co/Xk64QPk/pizza3.jpg",
             "price": 485
         },
         {
             "id": 4,
             "name": "ПИЦЦА 4 СЫРА",
-            "photo": "https://i.ibb.co/5vX0XRr/pizza4.jpg",
+            "photo": "https://i.ibb.co/LzdV2Gm/pizza4.jpg",
             "price": 495
         },
         {
             "id": 5,
             "name": "ПИЦЦА МЯСНАЯ",
-            "photo": "https://i.ibb.co/1M7f0Pr/pizza5.jpg",
+            "photo": "https://i.ibb.co/MG1DWMP/pizza5.jpg",
             "price": 525
         },
         {
             "id": 6,
             "name": "ПИЦЦА МОРСКАЯ",
-            "photo": "https://i.ibb.co/Pjv5sZv/pizza6.jpg",
+            "photo": "https://i.ibb.co/7tYhd9h/pizza6.jpg",
             "price": 625
         },
         {
             "id": 7,
             "name": "ПИЦЦА ЦЕЗАРЬ С КУРИЦЕЙ",
-            "photo": "https://i.ibb.co/C2RxTfD/pizza7.jpg",
+            "photo": "https://i.ibb.co/1RkcKRS/pizza7.jpg",
             "price": 395
         }
         ,   {
             "id": 8,
             "name": "ПИРОГ С ВИШНЕЙ",
-            "photo": "https://i.ibb.co/jwCcjKW/pizza8.jpg",
+            "photo": "https://i.ibb.co/0DL7X10/pizza8.jpg",
             "price": 345
         }
     ],
@@ -230,49 +230,49 @@
             "category": "РАМЕН",
             "id": 1,
             "name": "РАМЕН АССОРТИ",
-            "photo": "https://i.ibb.co/7Y99VNL/ramen1.jpg",
+            "photo": "https://i.ibb.co/y0pH0DZ/ramen1.jpg",
             "price": 400
         },
         {
             "id": 2,
             "name": "МИСО РАМЕН",
-            "photo": "https://i.ibb.co/0qgMJGN/ramen2.jpg",
+            "photo": "https://i.ibb.co/hLmvMf6/ramen2.jpg",
             "price": 295
         },
         {
             "id": 3,
             "name": "РАМЕН С КОПЧЕННЫМ КУРИННЫМ ФИЛЕ",
-            "photo": "https://i.ibb.co/6NkFM8p/ramen3.jpg",
+            "photo": "https://i.ibb.co/Vqy7ZDh/ramen3.jpg",
             "price": 345
         },
         {
             "id": 4,
             "name": "КИМЧИ РАМЕН",
-            "photo": "https://i.ibb.co/G7C3v93/ramen4.jpg",
+            "photo": "https://i.ibb.co/jvZmkHK/ramen4.jpg",
             "price": 295
         },
         {
             "id": 5,
             "name": "ТОКПОКИ РАМЕН",
-            "photo": "https://i.ibb.co/j8FZf8g/ramen5.jpg",
+            "photo": "https://i.ibb.co/Mn5518f/ramen5.jpg",
             "price": 250
         },
         {
             "id": 6,
             "name": "РАМЕН С ТОФУ",
-            "photo": "https://i.ibb.co/PYSsjSC/ramen6.jpg",
+            "photo": "https://i.ibb.co/Np1LykR/ramen6.jpg",
             "price": 250
         },
         {
             "id": 7,
             "name": "ЭНОКИ РАМЕН",
-            "photo": "https://i.ibb.co/7SkdgG3/ramen7.jpg",
+            "photo": "https://i.ibb.co/BwGkc17/ramen7.jpg",
             "price": 330
         },
         {
             "id": 8,
             "name": "ЖАРЕННЫЙ РАМЕН",
-            "photo": "https://i.ibb.co/9s4Dkwy/ramen8.jpg",
+            "photo": "https://i.ibb.co/KKgVq0k/ramen8.jpg",
             "price": 345
         }
     ],
@@ -406,7 +406,7 @@
             "id": 1,
             "name": "САЛАТ С СЕМГОЙ",
             "description": "микс из салатов, лоло росса, шпината, авокадо, марокканским кускусом и ореховым соусом",
-            "photo": "https://i.ibb.co/6y7Gmt8/salad1.png",
+            "photo": "https://i.ibb.co/h9PZmQZ/salad1.jpg",
             "weight": "300",
             "price": 545
         },
@@ -414,7 +414,7 @@
             "id": 2,
             "name": "САЛАТ МИКС С СЕМГОЙ",
             "description": "микс из салатов, лоло росса, киноа, слабосоленной семгой, заправленным с сладким масломм и томатом черри",
-            "photo": "https://i.ibb.co/B417H07/salad2.png",
+            "photo": "https://i.ibb.co/FbXqRGy/salad2.jpg",
             "weight": "300",
             "price": 475
         },
@@ -422,7 +422,7 @@
             "id": 3,
             "name": "САЛАТ ПЕСТО",
             "description": "свежие брокколи и цветная капуста в кляре с соевым тофу, томатами черри, заправленные соусом песто",
-            "photo": "https://i.ibb.co/F8jBPgf/salad3.png",
+            "photo": "https://i.ibb.co/HdTykRz/salad3.jpg",
             "weight": "320",
             "price": 265
         },
@@ -430,7 +430,7 @@
             "id": 4,
             "name": "САЛАТ ПП",
             "description": "салат с брокколи и цветной капустой, соевым тофу, маслинами и томатом черри",
-            "photo": "https://i.ibb.co/jzbKD75/salad4.png",
+            "photo": "https://i.ibb.co/m0FZ2Bd/salad4.jpg",
             "weight": "300",
             "price": 355
         },
@@ -438,7 +438,7 @@
             "id": 5,
             "name": "БИТЫЕ ОГУРЦЫ",
             "description": "битые огурцы по-китайски, заправленным соевым соусом и кунжутным маслом",
-            "photo": "https://i.ibb.co/n7Bmj53/salad5.png",
+            "photo": "https://i.ibb.co/xMXLfgq/salad5.jpg",
             "weight": "200",
             "price": 220
         },
@@ -446,7 +446,7 @@
             "id": 6,
             "name": "САЛАТ С РУККОЛА С ЛИСТЬЯМИ И С КУРИЦЕЙ",
             "description": "салат с ароматным пикантно-островатым вкусом рукколы, жаренным куриным филе в кляре, томатом черри и домашним соусом",
-            "photo": "https://i.ibb.co/WsqBdmz/salad6.png",
+            "photo": "https://i.ibb.co/QFp1PQd/salad6.jpg",
             "weight": "340",
             "price": 325
         },
@@ -454,7 +454,7 @@
             "id": 7,
             "name": "САЛАТ С КУРИЦЕЙ И С КИНОА",
             "description": "микс из салатов, лоло росса, киноа, заправленным сладким маслом и томатом черри",
-            "photo": "https://i.ibb.co/xXystXs/salad7.png",
+            "photo": "https://i.ibb.co/cTQNCH2/salad7.jpg",
             "weight": "300",
             "price": 365
         },
@@ -462,7 +462,7 @@
             "id": 8,
             "name": "САЛАТ ЦЕЗАРЬ С КРЕВЕТКАМИ",
             "description": " легендарный салат с креветками под соусом цезарь, выбор ценителей изыска",
-            "photo": "https://i.ibb.co/SPh7qVr/salad-8.png",
+            "photo": "https://i.ibb.co/sVVr8VQ/salad8.jpg",
             "weight": "385",
             "price": 340
         },
@@ -470,7 +470,7 @@
             "id": 9,
             "name": "САЛАТ ГРЕЧЕСКИЙ",
             "description": "помидоры, огурцы, маслины, сыр фетакса, красный лук, микс салата, оливковое масло",
-            "photo": "https://i.ibb.co/V3Jxh08/salad9.png",
+            "photo": "https://i.ibb.co/PQp74fR/salad9.jpg",
             "weight": "290",
             "price": 325
         },
@@ -478,7 +478,7 @@
             "id": 10,
             "name": "ХРУСТЯЩИЙ БАКЛАЖАН",
             "description": "баклажан, томат черри, микс салата, древесные грибы, соус свит чили",
-            "photo": "https://i.ibb.co/vDRCJtx/salad10.png",
+            "photo": "https://i.ibb.co/G3635ZY/salad10.jpg",
             "weight": "325",
             "price": 250
         },
@@ -486,7 +486,7 @@
             "id": 11,
             "name": "БАКЛАЖАН СО СВИТ ЧИЛИ",
             "description": " жареные баклажанные палочки в кисло-сладком соусе",
-            "photo": "https://i.ibb.co/9wwH2Xn/salad11.png",
+            "photo": "https://i.ibb.co/p1hrgDt/salad11.jpg",
             "weight": "250",
             "price": 320
         },
@@ -494,7 +494,7 @@
             "id": 12,
             "name": "САЛАТ ЧУКА С СЕМГОЙ",
             "description": " чука, семга, ореховый соус, кунжут",
-            "photo": "https://i.ibb.co/1dfZD3V/salad12.png",
+            "photo": "https://i.ibb.co/5WHJRp6/salad12.jpg",
             "weight": "180",
             "price": 395
         },
@@ -502,7 +502,7 @@
             "id": 13,
             "name": "ЛЕТНИЙ САЛАТ С МАНГОВОЙ ЗАПРАВКОЙ",
             "description": "помидоры, шпинат, листья салата, огурцы, лук красный, кедровые орешки, манговая заправка",
-            "photo": "https://i.ibb.co/fXmYX9H/salad13.png",
+            "photo": "https://i.ibb.co/n0kxZBC/salad13.jpg",
             "weight": "290",
             "price": 325
         },
@@ -510,7 +510,7 @@
             "id": 14,
             "name": "МОЯЩИ",
             "description": "салат с ростками фасоли со шпинатом, заправленное кунжутным маслом и травяным бульоном",
-            "photo": "https://i.ibb.co/Qn167Kr/salad14.png",
+            "photo": "https://i.ibb.co/k5snXnq/salad14.jpg",
             "weight": "110",
             "price": 170
         },
@@ -518,14 +518,14 @@
             "id": 15,
             "name": "ОСТРАЯ ФАСОЛЬ В КЛЯРЕ",
             "description": "стручковая фасоль, перец",
-            "photo": "https://i.ibb.co/Z645tJk/salad15.jpg",
+            "photo": "https://i.ibb.co/n1dpD4G/salad15.jpg",
             "weight": "220",
             "price": 255
         },
         {
             "id": 16,
             "name": "КИМЧИ",
-            "photo": "https://i.ibb.co/R35VtBS/salad16.png",
+            "photo": "https://i.ibb.co/MG0p0zh/salad16.jpg",
             "weight": "80",
             "price": 100
         },
@@ -533,7 +533,7 @@
             "id": 17,
             "name": "ПАК-ЧОЙ",
             "description": "китайская листовая капуста. обжаренная в чесноке, с соевым соусом",
-            "photo": "https://i.ibb.co/wM133mH/salad17.jpg",
+            "photo": "https://i.ibb.co/27mbnF0/salad17.jpg",
             "weight": "290",
             "price": 315
         }
@@ -884,49 +884,49 @@
                 "category": "ГУНКАНЫ И СУСИ",
                 "id": 1,
                 "name": "гункан с крабом",
-                "photo": "https://i.ibb.co/LRcJrcy/susi1.png",
+                "photo": "https://i.ibb.co/ZRjkPRw/susi1.jpg",
                 "weight": "60",
                 "price": 255
             },
             {
                 "id": 2,
                 "name": "гункан с угрем",
-                "photo": "https://i.ibb.co/Fs8MYHL/susi3.png",
+                "photo": "https://i.ibb.co/qMNnKvS/susi2.jpg",
                 "weight": "60",
                 "price": 275
             },
             {
                 "id": 3,
                 "name": "гункан с семгой",
-                "photo": "https://i.ibb.co/CHhxKV1/susi5.jpg",
+                "photo": "https://i.ibb.co/j5dWQ86/susi3.jpg",
                 "weight": "60",
                 "price": 285
             },
             {
                 "id": 4,
                 "name": "суси из тунца",
-                "photo": "https://i.ibb.co/vsX4HYp/susi2.png",
+                "photo": "https://i.ibb.co/M1CsrNK/susi4.jpg",
                 "weight": "55",
                 "price": 125
             },
             {
                 "id": 5,
                 "name": "суси из семги",
-                "photo": "https://i.ibb.co/KGWwhM4/susi8.jpg",
+                "photo": "https://i.ibb.co/K9fnKg7/susi5.jpg",
                 "weight": "55",
                 "price": 135
             },
             {
                 "id": 6,
                 "name": "суси из креветки",
-                "photo": "https://i.ibb.co/KGWwhM4/susi8.jpg",
+                "photo": "https://i.ibb.co/K9fnKg7/susi5.jpg",
                 "weight": "55",
                 "price": 115
             },
             {
                 "id": 7,
                 "name": "суси из угря",
-                "photo": "https://i.ibb.co/5jshQsV/susi7.png",
+                "photo": "https://i.ibb.co/W3xTWgB/susi6.jpg",
                 "weight": "55",
                 "price": 265
             }        
