@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import menuData from "../../menuData.json";
 import './Вynamicpage.css'
 import Item from "../../components/Item/Item"
-import Bg from '../../image/JPG/itemBg.jpg'
+// import Bg from '../../image/JPG/itemBg.jpg'
 import Loader from '../../components/Loader/Loader';
 
 const Вynamicpage = () => {
@@ -21,10 +21,7 @@ const Вynamicpage = () => {
     }, 2000);
   }, []);
   return (
-     <div className="item-menu" style={{
-      backgroundImage: `url(${Bg})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center"}}>
+     <div className="item-menu">
         {loading ? <Loader /> : <Item items={bakedRolls} />}
      </div>
   );

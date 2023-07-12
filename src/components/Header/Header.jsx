@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import H from "./Header.module.css";
-import Bg from "../../image/JPG/HeaderBg.jpg"
+// import Bg from "../../image/JPG/HeaderBg.jpg"
 import Nav from "./nav/index";
 import Logo from "../../image/PNG/Masaka-logo-white-red.png";
 
@@ -46,10 +46,7 @@ const Header = () => {
     navigate("/buisness-lunch");
   }, []);
   return (
-    <div className={H.container} style={{
-    backgroundImage: `url(${Bg})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center"}}>
+    <div className={H.container}>
       <div
         id="header"
         className={`${H.box} ${H.header} ${
