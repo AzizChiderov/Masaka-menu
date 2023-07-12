@@ -1695,55 +1695,55 @@
             "category": "СЕТЫ",
             "id": 1,
             "name": "студент",
-            "photo": "${Set1}",
+            "photo": "https://i.ibb.co/xMBTLLW/set1.jpg",
             "price": 755
         },
         {
             "id": 2,
             "name": "студент про",
-            "photo": "${Set2}",
+            "photo": "https://i.ibb.co/Sd6HpYc/set2.jpg",
             "price": 1150
         },
         {
             "id": 3,
             "name": "masaka",
-            "photo": "${Set3}",
+            "photo": "https://i.ibb.co/TtBSLcY/set3.jpg",
             "price": 2155
         },
         {
             "id": 4,
             "name": "семейный",
-            "photo": "${Set4}",
+            "photo": "https://i.ibb.co/xKZ3q4K/set4.jpg",
             "price": 2695
         },
         {
             "id": 5,
             "name": "hot",
-            "photo": "${Set5}",
+            "photo": "https://i.ibb.co/N9jFNrb/set5.jpg",
             "price": 1695
         },
         {
             "id": 6,
             "name": "классический",
-            "photo": "${Set6}",
+            "photo": "https://i.ibb.co/xhCm9qN/set6.jpg",
             "price": 1250
         },
         {
             "id": 7,
             "name": "завтрак сумоиста",
-            "photo": "${Set7}",
+            "photo": "https://i.ibb.co/dbF69J6/set7.jpg",
             "price": 945
         },
         {
             "id": 8,
             "name": "обед сумоиста",
-            "photo": "${Set8}",
+            "photo": "https://i.ibb.co/BjtGNLz/set8.jpg",
             "price": 1750
         },
         {
             "id": 9,
             "name": "ужин сумоиста",
-            "photo": "${Set9}",
+            "photo": "https://i.ibb.co/y43bBNB/set9.jpg",
             "price": 2295
         }
       ],
