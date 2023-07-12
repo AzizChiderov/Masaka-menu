@@ -1,0 +1,2171 @@
+{
+    "buisnesslunch": [
+        {
+            "category": "Бизнес Ланчы",
+            "id": 1,
+            "name": "Бизнес ланч Азия",
+            "ingredients": [
+                "кимчи",
+                "рис",
+                "спринг ролл с сыром",
+                "корн дог",
+                "рамен классик"
+            ],
+            "photo": "https://www.linkpicture.com/q/lunch2.png",
+            "price": 435
+        },
+        {
+            "id": 2,
+            "name": "Сакана Бизнес-ланч",
+            "ingredients": [
+                "том Ям",
+                "курица тонкацу",
+                "рис",
+                "чука",
+                "филадельфия классик",
+                "сельдерей",
+                "специи"
+            ],
+            "photo": "https://www.linkpicture.com/q/lunch2.png",
+            "price": 475
+        },
+        {
+            "id": 3,
+            "name": "Бизнес ланч Sigoi",
+            "ingredients": [
+                "мойва",
+                "калифорния классик",
+                "рис",
+                "том ям"
+            ],
+            "photo": "https://www.linkpicture.com/q/lunch2.png",
+            "price": 455
+        },
+        {
+            "id": 4,
+            "name": "Бизнес ланч Canno",
+            "ingredients": [
+                "острый суп масака",
+                "рис",
+                "чука",
+                "ростки сои",
+                "калифорния с семгой",
+                "кимчи"
+            ],
+            "photo": "https://www.linkpicture.com/q/lunch2.png",
+            "price": 295
+        },
+        {
+            "id": 5,
+            "name": "Бизнес ланч Нихон",
+            "ingredients": [
+                "курица тонкацу",
+                "токпоки",
+                "тофу",
+                "салат",
+                "мимо суп"
+            ],
+            "photo": "https://www.linkpicture.com/q/lunch2.png",
+            "price": 335
+        },
+        {
+            "id": 6,
+            "name": "Бизнес ланч Веган",
+            "ingredients": [
+                "салат чука",
+                "кимчи",
+                "караи тофу",
+                "мисо суп"
+            ],
+            "photo": "https://www.linkpicture.com/q/lunch2.png",
+            "price": 235
+        }
+    ],
+    "bowls": [
+        {
+            "category": "БОУЛЫ",
+            "id": 1,
+            "name": "поке боул с курицей",
+            "description": "мягко обжаренная курица в соусе терияки с кукурузой, фасолью и овощной заправкой.",
+            "photo": "https://www.linkpicture.com/q/bowl1.png",
+            "price": 415,
+            "weight": 480
+        },
+        {
+            "id": 2,
+            "name": "поке боул вегетерианский",
+            "description": "поке боул веган с овощами и витаминной бомбой по-азиатски",
+            "photo": "https://nambafood.kg/dish_image/128526.png",
+            "price": 375,
+            "weight": 440
+        },
+        {
+            "id": 3,
+            "name": "гавайский традиционный поке боул",
+            "photo": "https://nambafood.kg/dish_image/154039.png",
+            "price": 375,
+            "weight": 480
+        },
+        {
+            "id": 4,
+            "name": "поке боул с угрем",
+            "description": "поке боул с угрем в соусе унаги, с овощами и витаминной заправкой.",
+            "photo": "https://nambafood.kg/dish_image/128525.png",
+            "price": 585,
+            "weight": 440
+        },
+        {
+            "id": 5,
+            "name": "поке боул с семгой",
+            "description": "поке боул с семгой, овощами и салатной заправкой",
+            "photo": "https://nambafood.kg/dish_image/128529.png",
+            "price": 565,
+            "weight": 480
+        },
+        {
+            "id": 6,
+            "name": "поке боул Морской",
+            "description": "разнообразие овощей, салатная заправка и креветки",
+            "photo": "https://nambafood.kg/dish_image/128530.png",
+            "price": 425,
+            "weight": 440
+        }
+    ],
+    "tofu": [
+        {
+            "category": "Блюда из тофу",
+            "id": 1,
+            "name": "ТОФУ С ЛИМОН РАЙС В СОУСЕ КАРРИ",
+            "description": "тофу с лимон-райсом в соусе карри — идеальное сочетание нежности, свежести и остроты.",
+            "photo": "https://www.linkpicture.com/q/tofu.png",
+            "weight": "330",
+            "price": 255
+        },
+        {
+            "id": 2,
+            "name": "ТОФУ В ПАНИРОВКЕ С СОУСОМ КАРРИ",
+            "description": "нежный тофу в хрустящей панировке с медовым соусом карри",
+            "photo": "https://www.linkpicture.com/q/tofu2.png",
+            "weight": "290",
+            "price": 205
+        },
+        {
+            "id": 3,
+            "name": "КАРАИ ТОФУ",
+            "description": "хрустящей тофу в сладко-остром соусе",
+            "photo": "https://www.linkpicture.com/q/tofu3.png",
+            "weight": "180",
+            "price": 245
+        },
+        {
+            "id": 4,
+            "name": "ЖАРЕННЫЙ ТОФУ",
+            "description": "жаренный тофу в соевом соусе",
+            "photo": "https://www.linkpicture.com/q/tofu4.png",
+            "weight": "200",
+            "price": 250
+        },
+        {
+            "id": 5,
+            "name": "СПАЙСИ ТОФУ",
+            "description": "тофу по-китайски с острым бульоном, с мелко нарезанным зелёным луком и кунжутом",
+            "photo": "https://www.linkpicture.com/q/tofu5.png",
+            "weight": "180",
+            "price": 150
+        }
+    ],
+    "pizza": [
+        {
+            "category": "Пицца",
+            "id": 1,
+            "name": "ПИЦЦА ПЕППЕРОНИ",
+            "photo": "https://i.ibb.co/GCXp8zd/pizza1.jpg",
+            "price": 425
+        },
+        {
+            "id": 2,
+            "name": "ПИЦЦА АЛЬФРЕДО",
+            "photo": "https://i.ibb.co/NFT55d0/pizza2.jpg",
+            "price": 465
+        },
+        {
+            "id": 3,
+            "name": "ПИЦЦА ЧИЛИ",
+            "photo": "https://i.ibb.co/Cs9h0zm/pizza3.jpg",
+            "price": 485
+        },
+        {
+            "id": 4,
+            "name": "ПИЦЦА 4 СЫРА",
+            "photo": "https://i.ibb.co/7SYktPz/pizza4.jpg",
+            "price": 495
+        },
+        {
+            "id": 5,
+            "name": "ПИЦЦА МЯСНАЯ",
+            "photo": "https://i.ibb.co/zrC4dwC/pizza5.jpg",
+            "price": 525
+        },
+        {
+            "id": 6,
+            "name": "ПИЦЦА МОРСКАЯ",
+            "photo": "https://i.ibb.co/WkB4hrH/pizza6.jpg",
+            "price": 625
+        },
+        {
+            "id": 7,
+            "name": "ПИЦЦА ЦЕЗАРЬ С КУРИЦЕЙ",
+            "photo": "https://i.ibb.co/Z6zymqb/pizza7.jpg",
+            "price": 395
+        }
+        ,   {
+            "id": 8,
+            "name": "ПИРОГ С ВИШНЕЙ",
+            "photo": "https://i.ibb.co/8KggnMx/pizza8.jpg",
+            "price": 345
+        }
+    ],
+    "ramen": [
+        {
+            "category": "РАМЕН",
+            "id": 1,
+            "name": "РАМЕН АССОРТИ",
+            "photo": "https://i.ibb.co/WfKHXzq/ramen1.jpg",
+            "price": 400
+        },
+        {
+            "id": 2,
+            "name": "МИСО РАМЕН",
+            "photo": "https://i.ibb.co/HpLt92W/ramen2.jpg",
+            "price": 295
+        },
+        {
+            "id": 3,
+            "name": "РАМЕН С КОПЧЕННЫМ КУРИННЫМ ФИЛЕ",
+            "photo": "https://i.ibb.co/rc17hrK/ramen3.jpg",
+            "price": 345
+        },
+        {
+            "id": 4,
+            "name": "КИМЧИ РАМЕН",
+            "photo": "https://i.ibb.co/pQgJp95/ramen4.jpg",
+            "price": 295
+        },
+        {
+            "id": 5,
+            "name": "ТОКПОКИ РАМЕН",
+            "photo": "https://i.ibb.co/wy7d59D/ramen5.jpg",
+            "price": 250
+        },
+        {
+            "id": 6,
+            "name": "РАМЕН С ТОФУ",
+            "photo": "https://i.ibb.co/Wch9sF9/ramen6.jpg",
+            "price": 250
+        },
+        {
+            "id": 7,
+            "name": "ЭНОКИ РАМЕН",
+            "photo": "https://i.ibb.co/xFT4GQ0/ramen7.jpg",
+            "price": 330
+        },
+        {
+            "id": 8,
+            "name": "ЖАРЕННЫЙ РАМЕН",
+            "photo": "https://i.ibb.co/6Ff8Gzw/ramen8.jpg",
+            "price": 345
+        }
+    ],
+    "soup": [
+        {
+            "category": "СУПЫ",
+            "id": 1,
+            "name": "КУКСУ",
+            "description": "холодный куксу по-китайски",
+            "photo": "https://i.ibb.co/Kb7DcVX/soup1.png",
+            "weight": "330",
+            "price": 220
+        },
+        {
+            "id": 2,
+            "name": "УДОН ТАНГ",
+            "description": "японский домашний удон с коричневой курицей, отварным яйцом в зеленом чае и наваристым бульоном по-азиатски",
+            "photo": "https://i.ibb.co/XsQ8QKs/soup2.png",
+            "weight": "410",
+            "price": 215
+        },
+        {
+            "id": 3,
+            "name": "ЮКЕДЖАН",
+            "description": "корейский традиционный суп, на основе говяжьего бульона с овощами",
+            "photo": "https://i.ibb.co/X3LKGLr/soup3.png",
+            "weight": "350",
+            "price": 275
+        },
+        {
+            "id": 4,
+            "name": "ОСТРЫЙ СУП МАСАКА",
+            "description": "куриное филе, древесные грибы, лапша, тофу, специи табанжан, соус кочудян",
+            "photo": "https://i.ibb.co/KmNjmt3/soup4.png",
+            "weight": "370",
+            "price": 275
+        },
+        {
+            "id": 5,
+            "name": "РАМЕН",
+            "photo": "https://i.ibb.co/8zxT3QN/soup5.png",
+            "ingr":[
+                {
+                    "id": 1,
+                    "name": "курица",
+                    "weight": "50",
+                    "price": 60
+                },
+                {
+                    "id": 2,
+                    "name": "говядина",
+                    "weight": "50",
+                    "price": 90
+                },
+                {
+                    "id": 3,
+                    "name": "сыр",
+                    "weight": "50",
+                    "price": 90
+                },
+                {
+                    "id": 4,
+                    "name": "яйцо куриное",
+                    "count": 1,
+                    "price": 60
+                }
+            ],
+            "weight": "370",
+            "price": 185
+        },
+        {
+            "id": 6,
+            "name": "НЮ МИАН ЛАПША",
+            "description": "суп на основе кисло-сладкого говяжьего бульона с говядиной и удон лапшой",
+            "photo": "https://i.ibb.co/VwK5JNX/soup6.png",
+            "weight": "410",
+            "price": 370
+        },
+        {
+            "id": 7,
+            "name": "СУП МИСО",
+            "description": "тофу, шитаки, вакамэ",
+            "photo": "https://i.ibb.co/7gBfYJd/soup7.png",
+            "weight": "300",
+            "price": 145
+        },
+        {
+            "id": 8,
+            "name": "СУП БИ-ХУН",
+            "description": "суп на основе рыбного бульона с ростками фасоли, с золотыми нитями, с азиатской лапшой",
+            "photo": "https://i.ibb.co/mBfb0y2/soup8.png",
+            "weight": "350",
+            "price": 250
+        },
+        {
+            "id": 9,
+            "name": "МИСО СУП С КРЕВЕТКОЙ СЛИВОЧНЫЙ",
+            "description": "мисо суп с креветкой сливочный",
+            "photo": "https://i.ibb.co/xjhSh87/soup9.png",
+            "weight": "385",
+            "price": 285
+        },
+        {
+            "id": 10,
+            "name": "ТОМ ЯМ РАМЕН",
+            "description": "тайский традиционный том яс с морепродуктами, с тонкой китайской лапшой",
+            "photo": "https://i.ibb.co/znTjPyd/soup10.png",
+            "weight": "370",
+            "price": 505
+        },
+        {
+            "id": 11,
+            "name": "МИСО С СЕМГОЙ",
+            "description": "мисо суп с семгой сливочный",
+            "photo": "https://i.ibb.co/2gH17wK/soup11.png",
+            "weight": "340",
+            "price": 295
+        },
+        {
+            "id": 12,
+            "name": "СУП ТОМ ЯМ",
+            "description": "традиционный тайский суп, кокосовое молоко, тигровые креветки, кальмар, томаты черри и чили",
+            "photo": "https://i.ibb.co/gDvCfQb/soup12.png",
+            "weight": "350",
+            "price": 495
+        }
+    ],
+    "salads": [
+        {
+            "category": "САЛАТЫ",
+            "id": 1,
+            "name": "САЛАТ С СЕМГОЙ",
+            "description": "микс из салатов, лоло росса, шпината, авокадо, марокканским кускусом и ореховым соусом",
+            "photo": "https://i.ibb.co/6y7Gmt8/salad1.png",
+            "weight": "300",
+            "price": 545
+        },
+        {
+            "id": 2,
+            "name": "САЛАТ МИКС С СЕМГОЙ",
+            "description": "микс из салатов, лоло росса, киноа, слабосоленной семгой, заправленным с сладким масломм и томатом черри",
+            "photo": "https://i.ibb.co/B417H07/salad2.png",
+            "weight": "300",
+            "price": 475
+        },
+        {
+            "id": 3,
+            "name": "САЛАТ ПЕСТО",
+            "description": "свежие брокколи и цветная капуста в кляре с соевым тофу, томатами черри, заправленные соусом песто",
+            "photo": "https://i.ibb.co/F8jBPgf/salad3.png",
+            "weight": "320",
+            "price": 265
+        },
+        {
+            "id": 4,
+            "name": "САЛАТ ПП",
+            "description": "салат с брокколи и цветной капустой, соевым тофу, маслинами и томатом черри",
+            "photo": "https://i.ibb.co/jzbKD75/salad4.png",
+            "weight": "300",
+            "price": 355
+        },
+        {
+            "id": 5,
+            "name": "БИТЫЕ ОГУРЦЫ",
+            "description": "битые огурцы по-китайски, заправленным соевым соусом и кунжутным маслом",
+            "photo": "https://i.ibb.co/n7Bmj53/salad5.png",
+            "weight": "200",
+            "price": 220
+        },
+        {
+            "id": 6,
+            "name": "САЛАТ С РУККОЛА С ЛИСТЬЯМИ И С КУРИЦЕЙ",
+            "description": "салат с ароматным пикантно-островатым вкусом рукколы, жаренным куриным филе в кляре, томатом черри и домашним соусом",
+            "photo": "https://i.ibb.co/WsqBdmz/salad6.png",
+            "weight": "340",
+            "price": 325
+        },
+        {
+            "id": 7,
+            "name": "САЛАТ С КУРИЦЕЙ И С КИНОА",
+            "description": "микс из салатов, лоло росса, киноа, заправленным сладким маслом и томатом черри",
+            "photo": "https://i.ibb.co/xXystXs/salad7.png",
+            "weight": "300",
+            "price": 365
+        },
+        {
+            "id": 8,
+            "name": "САЛАТ ЦЕЗАРЬ С КРЕВЕТКАМИ",
+            "description": " легендарный салат с креветками под соусом цезарь, выбор ценителей изыска",
+            "photo": "https://i.ibb.co/SPh7qVr/salad-8.png",
+            "weight": "385",
+            "price": 340
+        },
+        {
+            "id": 9,
+            "name": "САЛАТ ГРЕЧЕСКИЙ",
+            "description": "помидоры, огурцы, маслины, сыр фетакса, красный лук, микс салата, оливковое масло",
+            "photo": "https://i.ibb.co/V3Jxh08/salad9.png",
+            "weight": "290",
+            "price": 325
+        },
+        {
+            "id": 10,
+            "name": "ХРУСТЯЩИЙ БАКЛАЖАН",
+            "description": "баклажан, томат черри, микс салата, древесные грибы, соус свит чили",
+            "photo": "https://i.ibb.co/vDRCJtx/salad10.png",
+            "weight": "325",
+            "price": 250
+        },
+        {
+            "id": 11,
+            "name": "БАКЛАЖАН СО СВИТ ЧИЛИ",
+            "description": " жареные баклажанные палочки в кисло-сладком соусе",
+            "photo": "https://i.ibb.co/9wwH2Xn/salad11.png",
+            "weight": "250",
+            "price": 320
+        },
+        {
+            "id": 12,
+            "name": "САЛАТ ЧУКА С СЕМГОЙ",
+            "description": " чука, семга, ореховый соус, кунжут",
+            "photo": "https://i.ibb.co/1dfZD3V/salad12.png",
+            "weight": "180",
+            "price": 395
+        },
+        {
+            "id": 13,
+            "name": "ЛЕТНИЙ САЛАТ С МАНГОВОЙ ЗАПРАВКОЙ",
+            "description": "помидоры, шпинат, листья салата, огурцы, лук красный, кедровые орешки, манговая заправка",
+            "photo": "https://i.ibb.co/fXmYX9H/salad13.png",
+            "weight": "290",
+            "price": 325
+        },
+        {
+            "id": 14,
+            "name": "МОЯЩИ",
+            "description": "салат с ростками фасоли со шпинатом, заправленное кунжутным маслом и травяным бульоном",
+            "photo": "https://i.ibb.co/Qn167Kr/salad14.png",
+            "weight": "110",
+            "price": 170
+        },
+        {
+            "id": 15,
+            "name": "ОСТРАЯ ФАСОЛЬ В КЛЯРЕ",
+            "description": "стручковая фасоль, перец",
+            "photo": "https://i.ibb.co/Z645tJk/salad15.jpg",
+            "weight": "220",
+            "price": 255
+        },
+        {
+            "id": 16,
+            "name": "КИМЧИ",
+            "photo": "https://i.ibb.co/R35VtBS/salad16.png",
+            "weight": "80",
+            "price": 100
+        },
+        {
+            "id": 17,
+            "name": "ПАК-ЧОЙ",
+            "description": "китайская листовая капуста. обжаренная в чесноке, с соевым соусом",
+            "photo": "https://i.ibb.co/wM133mH/salad17.jpg",
+            "weight": "290",
+            "price": 315
+        }
+    ],
+    "snacks": [
+        {
+            "category": "ЗАКУСКИ",
+            "id": 1,
+            "name": "БЛЮДО СЯМИ ИМПЕРАТОРСКАЯ ТРАПЕЗА",
+            "description": "сями традиционное корейское блюдо, который состоит из свежих ингридиентов. Контраст вкуса собранного сета дает незабываемое ощущение",
+            "photo": "https://i.ibb.co/BCXndTb/snack1.png",
+            "weight": "330",
+            "price": 525
+        },
+        {
+            "id": 2,
+            "name": "ГРИБЫ ЭНОКИ В КИСЛО-ОСТРОМА СОУСЕ",
+            "description": "полезные и вкусные грибы эноки приготовленные в кисло-остром соусе",
+            "photo": "https://i.ibb.co/8chRGbm/snack2.png",
+            "weight": "385",
+            "price": 250
+        },
+        {
+            "id": 3,
+            "name": "ГЕДЗА ЖАРЕНЫЕ",
+            "description": "на выбор: гедза с курицей и жусай/ гедза с курицей и зеленымм луком",
+            "photo": "https://i.ibb.co/sqXdD69/snack3.png",
+            "weight": "200",
+            "price": 245
+        },
+        {
+            "id": 4,
+            "name": "ЯКИ ГЕДЗА С СОУСОМ МИЛАН",
+            "description": "на выбор: гедза с курицей и жусай/гедза с курицей и зеленым луком",
+            "photo": "https://i.ibb.co/wNVgsQF/snack4.png",
+            "weight": "255",
+            "price": 200
+        },
+        {
+            "id": 5,
+            "name": "СУДАК В КИСЛО-СЛАДКОМ",
+            "description": "судак в кисло-сладком с баклажанами",
+            "photo": "https://i.ibb.co/3hSLwxH/snack5.png",
+            "weight": "250",
+            "price": 415
+        },
+        {
+            "id": 6,
+            "name": "ТОКПОКИ",
+            "description": "одно из самых популярных блюд Южной Кореи. Рисовые клецки в сладко-остром соусе",
+            "photo": "https://i.ibb.co/d0ZhvLv/snack6.png",
+            "weight": "220",
+            "price": 290
+        },
+        {
+            "id": 7,
+            "name": "ЗАПЕЧЕННЫЕ МИДИИ",
+            "description": "запеченные мидии с соусом спайси",
+            "photo": "https://i.ibb.co/6t5GV3S/snack7.png",
+            "weight": "200",
+            "price": 515
+        },
+        {
+            "id": 8,
+            "name": "КЕСАДИЛЬЯ С КУРИЦЕЙ",
+            "description": "кесадилья с курицей в сливочном соусе и грибами, с прослойкой из нежного сыра",
+            "photo": "https://i.ibb.co/6g4XXBG/snack8.png",
+            "weight": "230",
+            "price": 355
+        },
+        {
+            "id": 9,
+            "name": "КЕСАДИЛЬЯ С КРЕВЕТКАМИ",
+            "description": " кесадилья с креветками в сливочном соусе и грибами, с прослойкой из нежного сыра",
+            "photo": "https://i.ibb.co/LnLwzQw/snack9.png",
+            "weight": "210",
+            "price": 405
+        }
+    ],
+    "chicken": [
+        {
+            "category": "БЛЮДА С КУРИЦЕЙ",
+            "id": 1,
+            "name": "ЦЫПЛЕНОК ПОД ДЕРЕВЕНСКИМ СОУСОМ",
+            "description": "запеченное филе цыпленка со свежими листьями салата, под деревенским соусом",
+            "photo": "https://i.ibb.co/bK5MhtT/chicken1.png",
+            "weight": "390",
+            "price": 405
+        },
+        {
+            "id": 2,
+            "name": "УТИНАЯ ГРУДКА В ЯГОДНОМ СОУСЕ",
+            "description": " утиное филе приготовленное по-домашнему с листьями салата и томатом черри, заправленное ягодным соусом",
+            "photo": "https://i.ibb.co/NTb1DDz/chicken2.png",
+            "weight": "320",
+            "price": 550
+        },
+        {
+            "id": 3,
+            "name": "ТАЙ ЧИККЕН СВИТ КАРРИ",
+            "description": " нежное куриное филе, с овощами и соусом карри со сладким оттенком меда",
+            "photo": "https://i.ibb.co/sqXdD69/snack3.png",
+            "weight": "390",
+            "price": 335
+        },
+        {
+            "id": 4,
+            "name": "СПАЙС ЧИКЕН",
+            "description": " яркий, насыщенный кисло-островатый вкус куриного мяса, с пикантной остринкой и овощами",
+            "photo": "https://i.ibb.co/wNVgsQF/snack4.png",
+            "weight": "390",
+            "price": 335
+        },
+        {
+            "id": 5,
+            "name": "ЗАПЕЧЕННЫЙ ЦЫПЛЕОК С КУС КУС",
+            "description": " сочный цыпленок с ароматными специями, с марокканским кускусом и соусом терияки",
+            "photo": "https://i.ibb.co/3hSLwxH/snack5.png",
+            "weight": "390",
+            "price": 435
+        },
+        {
+            "id": 6,
+            "name": "ТЕРИЯКИ",
+            "description": " кусочки куриного филе в соусе терияки, с битыми огурцами, подается с рисом",
+            "photo": "https://i.ibb.co/RyQfNhG/chicken6.png",
+            "weight": "290",
+            "price": 255
+        },
+        {
+            "id": 7,
+            "name": "КОРН-ДОГ С СЫРОМ",
+            "photo": "https://i.ibb.co/0jXWRKk/chicken7.png",
+            "price": 110
+        },
+        {
+            "id": 8,
+            "name": "КУРИНЫЕ НАГЕТСЫ",
+            "description": "",
+            "photo": "https://i.ibb.co/RC8TFMG/chicken8.png",
+            "weight": "220",
+            "price": 295
+        },
+        {
+            "id": 9,
+            "name": "КУРИЦА ТОНКАЦУ",
+            "photo": "https://i.ibb.co/V22dHcX/chicken9.png",
+            "weight": "280",
+            "price": 285
+        },
+        {
+            "id": 10,
+            "name": "ОЩИ СЕТ",
+            "description": "азиатский набор из хрустящей курицы, тофу в кисло-остром соусе, риса и корейского кимчи",
+            "photo": "https://i.ibb.co/yWwQjsg/chicken10.png",
+            "weight": "220",
+            "price": 245
+        },
+        {
+            "id": 11,
+            "name": "КУРИЦА В КИСЛО-СЛАДКОМ СОУСЕ",
+            "photo": "https://i.ibb.co/6rJw2RZ/chicken11.png",
+            "weight": "320",
+            "price": 335
+        },
+        {
+            "id": 12,
+            "name": "СПРИНГ РОЛЛ С СЫРОМ",
+            "photo": "https://i.ibb.co/hCN6bBC/chicken12.png",
+            "weight": "110",
+            "price": 180
+        },
+        {
+            "id": 13,
+            "name": "КУРИЦА В КИСЛО-ОСТРОМ СОУСЕ",
+            "photo": "https://i.ibb.co/9ZH9sbV/chicken13.png",
+            "weight": "390",
+            "price": 405
+        },
+        {
+            "id": 14,
+            "name": "КАРРИДОН",
+            "description": "курица обжаренная с овощами, с заправкой тайского карри",
+            "photo": "https://i.ibb.co/bdnSNjL/chicken14.png",
+            "weight": "350",
+            "price": 350
+        },
+        {
+            "id": 15,
+            "name": "КРЫЛЫШКИ С ЛАПШОЙ",
+            "description": " острые крылышки с тонкой лапшой в сливочном соусе",
+            "photo": "https://i.ibb.co/JCWMnZv/chicken15.png",
+            "weight": "380",
+            "price": 375
+        },
+        {
+            "id": 16,
+            "name": "СПАЙС ЧИКЕН",
+            "description": " яркий, насыщенный кисло-островатый вкус куриного мяса, с пикантной остринкой и овощами",
+            "photo": "https://i.ibb.co/pdL99MQ/chicken16.png",
+            "weight": "390",
+            "price": 335
+        },
+        {
+            "id": 17,
+            "name": "КРЫЛЫШКИ С ТЯХАНОМ",
+            "description": " крылышки в кисло-остром / кисло-сладком соусе, рисом тяхан",
+            "photo": "https://i.ibb.co/bmG52TS/chicken17.png",
+            "weight": "350",
+            "price": 365
+        },
+        {
+            "id": 18,
+            "name": "ЧИКЕН НУДЛ",
+            "description": " обжаренная курица в соусе терияки, с овощами в кунжутном соусе",
+            "photo": "https://i.ibb.co/T02W8JQ/chicken18.png",
+            "weight": "405",
+            "price": 390
+        },
+        {
+            "id": 19,
+            "name": "КРЫЛЫШКИ ФРИ",
+            "photo": "https://i.ibb.co/Jy27TgB/chicken19.png",
+            "weight": "320",
+            "price": 335
+        },
+        {
+            "id": 20,
+            "name": "КАРРИ-РАЙС",
+            "description": " одно из самых популярных блюд азии, карри с нежной курицей в кляре",
+            "photo": "https://i.ibb.co/9YdMDWQ/chicken20.png",
+            "weight": "450",
+            "price": 345
+        },
+        {
+            "id": 21,
+            "name": "ЧИКЕН ОЯКОДОН",
+            "description":" японская курица в кляре с соусом оякодон, яйцом и жаренным луком",
+            "photo": "https://i.ibb.co/tbJFX5c/chicken21.png",
+            "weight": "250",
+            "price": 380
+        },
+        {
+            "id": 22,
+            "name": "КУРИЦА КАРААГЕ",
+            "description": " куриные бедра, чеснок, имбирь, панировка",
+            "photo": "https://i.ibb.co/S6PV5Vw/chicken22.png",
+            "weight": "220",
+            "price": 220
+        }
+    ],
+    "noodles": [
+        {
+            "category": "БЛЮДА С ЛАПШОЙ",
+            "id": 1,
+            "name": "КАРБОНАРА ПО- АЗИАТСКИ",
+            "description": " традиционная японская лапша удон. с подкопченной говяжьей ветчиной, в сливочном и терияки соусах, с пармезаном",
+            "photo": "https://i.ibb.co/K0KpqF6/noodle1-1837a546a0f13f1d635d.png",
+            "weight": "320",
+            "price": 365
+        },
+        {
+            "id": 2,
+            "name": "ДОМАШНИЙ ЯПОНСКИЙ УДОН",
+            "description": " жаренный удон с креветками в соусе терияки",
+            "photo": "https://i.ibb.co/LZx19Rk/noodle2-97388b893173fb43807d.png",
+            "weight": "290",
+            "price": 225
+        },
+        {
+            "id": 3,
+            "name": "ФИЛЕ ЯГНЕНКА С ФУНЧОЗОЙ",
+            "description": " маринованная баранья вырезка, жареная с тонкой лапшой, жусаем, пряным японским перцем и соками соусом",
+            "photo": "https://i.ibb.co/VwRtHjJ/noodle3-5a1ac79b377c76ac7a02.png",
+            "weight": "270",
+            "price": 370
+        },
+        {
+            "id": 4,
+            "name": "СПАЙСИ ХАРУСАМЕ",
+            "description": " фунчоза в пряном соусе, с ветчиной по-азиатски(Халал)",
+            "photo": "https://i.ibb.co/LCQhzpM/noodle4-a44d61770cdeaef2dc8d.png",
+            "weight": "450",
+            "price": 490
+        },
+        {
+            "id": 5,
+            "name": "ИНДЕЙКА С БРОККОЛИ",
+            "description": " стеклянная лапша фунчоза подается с нежным филе из индейки с хрустящими брокколи и овощами. Подается с соусом из куркумы",
+            "photo": "https://i.ibb.co/jyxLqjT/noodle5-36272b47bc0d0e6483a0.png",
+            "weight": "320",
+            "price": 295
+        }
+    ],
+    "wok": [
+        {
+            "category": "ВОКИ",
+            "id": 1,
+            "name": "вок с морепродуктами",
+            "description": "стеклянная лапша фунчоза с морепродуктами и овощами. Подается с устричным пикантным соусом шрирача",
+            "photo": "https://i.ibb.co/c6zxgzP/wok1.png",
+            "weight": "300",
+            "price": 405
+        },
+        {   
+            "id": 2,
+            "name": "вок с курицей",
+            "ingredients": [
+                "курица",
+                "овощи",
+                "лапша удон"
+            ],
+            "weight": "320",
+            "price": 305,
+            "name2": "вок с говядиной",
+            "ingredients2": [
+                "говядина",
+                "овощи",
+                "лапша удон"
+            ],
+            "photo": "https://i.ibb.co/QQx3TXZ/wok2.png",
+            "weight2": "320",
+            "price2": 375
+        },
+        {
+            "id": 3,
+            "name": "вок с курицей в сливочном соусе",
+            "ingredients": [
+                "курица",
+                "лапша удон",
+                "овощи и",
+                "сливочно острый соус"
+            ],
+            "photo": "https://i.ibb.co/yW8zTCx/wok3.png",
+            "weight": "320",
+            "price": 305
+        },
+        {
+            "id": 4,
+            "name": "жаренный рамен",
+            "photo": "https://i.ibb.co/KsYw9Kk/wok4.png",
+            "weight": "350",
+            "price": 345
+        }
+    ],
+    "gunkan":[
+            {
+                "category": "ГУНКАНЫ И СУСИ",
+                "id": 1,
+                "name": "гункан с крабом",
+                "photo": "https://i.ibb.co/LRcJrcy/susi1.png",
+                "weight": "60",
+                "price": 255
+            },
+            {
+                "id": 2,
+                "name": "гункан с угрем",
+                "photo": "https://i.ibb.co/Fs8MYHL/susi3.png",
+                "weight": "60",
+                "price": 275
+            },
+            {
+                "id": 3,
+                "name": "гункан с семгой",
+                "photo": "https://i.ibb.co/CHhxKV1/susi5.jpg",
+                "weight": "60",
+                "price": 285
+            },
+            {
+                "id": 4,
+                "name": "суси из тунца",
+                "photo": "https://i.ibb.co/vsX4HYp/susi2.png",
+                "weight": "55",
+                "price": 125
+            },
+            {
+                "id": 5,
+                "name": "суси из семги",
+                "photo": "https://i.ibb.co/KGWwhM4/susi8.jpg",
+                "weight": "55",
+                "price": 135
+            },
+            {
+                "id": 6,
+                "name": "суси из креветки",
+                "photo": "https://i.ibb.co/KGWwhM4/susi8.jpg",
+                "weight": "55",
+                "price": 115
+            },
+            {
+                "id": 7,
+                "name": "суси из угря",
+                "photo": "https://i.ibb.co/5jshQsV/susi7.png",
+                "weight": "55",
+                "price": 265
+            }        
+    ],
+    "rolls":[
+        {
+            "category": "РОЛЛЫ",
+            "id": 1,
+            "name": "ролл без риса",
+            "ingredients": [
+                "лосось",
+                "томаго",
+                "огурец",
+                "снежный краб",
+                "салатные листья",
+                "сыр творожный"
+            ],
+            "photo": "https://i.ibb.co/J2dvksF/roll1.png",
+            "weight": "200",
+            "price": 495
+        },
+        {
+            "id": 2,
+            "name": "тори маки",
+            "ingredients": [
+                "помидор",
+                "нежный сыр",
+                "куриное филе",
+                "масаго"
+            ],
+            "photo": "https://i.ibb.co/xH0sCKJ/roll2.png",
+            "weight": "220",
+            "price": 235
+        },
+        {
+            "id": 3,
+            "name": "темпура саке",
+            "ingredients": [
+                "нежный сыр",
+                "лосось",
+                "огурец",
+                "унаги",
+                "спайси соус"
+            ],
+            "photo": "https://i.ibb.co/J7qHtms/roll3.png",
+            "weight": "250",
+            "price": 325
+        },
+        {
+            "id": 4,
+            "name": "ролл роял",
+            "ingredients": [
+                "микс кунжута",
+                "нежный сыр",
+                "копченная курица",
+                "огурец",
+                "лосось"
+            ],
+            "photo": "https://i.ibb.co/L0z7w7T/roll4.png",
+            "weight": "280",
+            "price": 355
+        },
+        {
+            "id": 5,
+            "name": "томаго маки",
+            "ingredients": [
+                "японский омлет",
+                "креветки",
+                "авокадо",
+                "нежный сыр",
+                "унаги соус",
+                "кунжут"
+            ],
+            "photo": "https://i.ibb.co/JrHTQ1L/roll5.png",
+            "weight": "280",
+            "price": 295
+        },
+        {
+            "id": 6,
+            "name": "ролл хакайдо",
+            "ingredients": [
+                "хрустящие креветки",
+                "авокадо",
+                "масаго",
+                "унаги",
+                "спайси соус"
+            ],
+            "photo": "https://i.ibb.co/Thhk3WL/roll6.png",
+            "weight": "220",
+            "price": 325
+        },
+        {
+            "id": 7,
+            "name": "ролл матия",
+            "ingredients": [
+                "нежный сыр",
+                "авокадо",
+                "снежный краб",
+                "тунец",
+                "сыр чедер",
+                "унаги соус"
+            ],
+            "photo": "https://i.ibb.co/gdX1Nz7/roll7.png",
+            "weight": "255",
+            "price": 425
+        },
+        {
+            "id": 8,
+            "name": "ролл токиа",
+            "ingredients": [
+                "японский омлет",
+                "огурец",
+                "нежный сыр",
+                "лосось"
+            ],
+            "photo": "https://i.ibb.co/S5f0dWM/roll8.png",
+            "weight": "280",
+            "price": 435
+        },
+        {
+            "id": 9,
+            "name": "темпура лосось",
+            "ingredients": [
+                "помидор",
+                "нежный сыр",
+                "болгарский перец",
+                "масаго",
+                "лосось",
+                "соус сливочный"
+            ],
+            "photo": "https://i.ibb.co/hBT4FHn/roll9.png",
+            "weight": "280",
+            "price": 275
+        },
+        {
+            "id": 10,
+            "name": "тар тар ролл",
+            "ingredients": [
+                "жаренный лосось",
+                "помидор",
+                "нежный сыр",
+                "тунец",
+                "соус сливочный",
+                "унаги",
+                "спайси"
+            ],
+            "photo": "https://i.ibb.co/Bznj1Vz/roll10.png",
+            "weight": "270",
+            "price": 395
+        },
+        {
+            "id": 11,
+            "name": "ролл панко",
+            "ingredients": [
+                "нежный сыр",
+                "копченная курица",
+                "спайси соус"
+            ],
+            "photo": "https://i.ibb.co/RBQdN4Y/roll11.png",
+            "weight": "220",
+            "price": 225
+        },
+        {
+            "id": 12,
+            "name": "татами",
+            "ingredients": [
+                "нежный сыр",
+                "огурец",
+                "хрустящая креветка",
+                "болгарский перец",
+                "спайси",
+                "соус"
+            ],
+            "photo": "https://i.ibb.co/47m6TGS/roll12.png",
+            "weight": "250",
+            "price": 235
+        },
+        {
+            "id": 13,
+            "name": "ойси",
+            "ingredients": [
+                "нежный сыр",
+                "лосось",
+                "листья салата",
+                "масаго",
+                "спайси соус"
+            ],
+            "photo": "https://i.ibb.co/Jm2cWPx/roll13.png",
+            "weight": "220",
+            "price": 305
+        },
+        {
+            "id": 14,
+            "name": "чиз ролл",
+            "ingredients": [
+                "снежный краб",
+                "омлет",
+                "спайси соус",
+                "сыр чедер"
+            ],
+            "photo": "https://i.ibb.co/tbCKkT6/roll14.png",
+            "weight": "220",
+            "price": 225
+        },
+        {
+            "id": 15,
+            "name": "сакаи темпура",
+            "ingredients": [
+                "лосось",
+                "угорь",
+                "нежный сыр",
+                "салатыне листья",
+                "соус сливочный"
+            ],
+            "photo": "https://i.ibb.co/ZLLRHnv/roll15.png",
+            "weight": "150",
+            "price": 425
+        },
+        {
+            "id": 16,
+            "name": "темпура унаги",
+            "ingredients": [
+                "нежный сыр",
+                "угорь",
+                "огурец",
+                "унаги",
+                "спайси соус"
+            ],
+            "photo": "https://i.ibb.co/c2fMhKx/roll16.png",
+            "weight": "230",
+            "price": 275
+        },
+        {
+            "id": 17,
+            "name": "запеченный унаги",
+            "ingredients": [
+                "огурец",
+                "жареный лосось",
+                "нежный сыр",
+                "угорь",
+                "спайси соус"
+            ],
+            "photo": "https://i.ibb.co/N9R85QM/roll17.jpg",
+            "weight": "230",
+            "price": 445
+        },
+        {
+            "id": 18,
+            "name": "жаренная чука",
+            "ingredients": [
+                "нежный сыр",
+                "чука",
+                "масаго",
+                "унаги",
+                "спайси соус"
+            ],
+            "photo": "https://i.ibb.co/Ldns6PZ/roll18.jpg",
+            "weight": "225",
+            "price": 275
+        },
+        {
+            "id": 19,
+            "name": "калифорния классик",
+            "ingredients": [
+                "авокадо",
+                "огурец",
+                "снежный краб",
+                "тобико"
+            ],
+            "photo": "https://i.ibb.co/YkBKznw/roll19.jpg",
+            "weight": "250",
+            "price": 295
+        },
+        {
+            "id": 20,
+            "name": "филадельфия классик",
+            "ingredients": [
+                "нежный сыр",
+                "семга",
+                "огурец"
+            ],
+            "photo": "https://i.ibb.co/F7QHmN8/roll20.jpg",
+            "weight": "280",
+            "price": 425
+        },
+        {
+            "id": 21,
+            "name": "калифорния люкс",
+            "ingredients": [
+                "тигровые креветки",
+                "авокадо",
+                "нежный сыр",
+                "тобико"
+            ],
+            "photo": "https://i.ibb.co/xX7MZ6p/roll21.png",
+            "weight": "250",
+            "price": 395
+        },
+        {
+            "id": 22,
+            "name": "филадельфия люкс",
+            "ingredients": [
+                "семга",
+                "нежный сыр",
+                "огурец",
+                "игра семги",
+                "лук зеленый"
+            ],
+            "photo": "https://i.ibb.co/p1fb7br/roll22.jpg",
+            "weight": "290",
+            "price": 535
+        },
+        {
+            "id": 23,
+            "name": "филадельфия с крабом",
+            "ingredients": [
+                "семга",
+                "снежный краб",
+                "нежный сыр",
+                "тобико",
+                "спайси соус"
+            ],
+            "photo": "https://i.ibb.co/F8fbWJL/roll41.png",
+            "weight": "260",
+            "price": 415
+        },
+        {
+            "id": 24,
+            "name": "калифорния с семгой",
+            "ingredients": [
+                "нежный сыр",
+                "огурец",
+                "семга",
+                "тобико"
+            ],
+            "photo": "https://i.ibb.co/DV6YrWz/roll23.jpg",
+            "weight": "250",
+            "price": 325
+        },
+        {
+            "id": 25,
+            "name": "филадельфия маки",
+            "ingredients": [
+                "нежный сыр",
+                "семга",
+                "лук зеленый"
+            ],
+            "photo": "https://i.ibb.co/0BQ9nQ0/roll24.jpg",
+            "weight": "275",
+            "price": 530
+        },
+        {
+            "id": 26,
+            "name": "литтл масака",
+            "ingredients": [
+                "тобико",
+                "авокадо",
+                "семга",
+                "снежный краб",
+                "угорь",
+                "стужка тунца",
+                "сыр",
+                "соус унаги"
+            ],
+            "photo": "https://i.ibb.co/ph85vMz/roll25.png",
+            "weight": "250",
+            "price": 365
+        },
+        {
+            "id": 27,
+            "name": "лава",
+            "ingredients": [
+                "нежный сыр",
+                "снежный краб",
+                "семга",
+                "огурец",
+                "лава"
+            ],
+            "photo": "https://i.ibb.co/0m1sdtL/roll26.png",
+            "weight": "330",
+            "price": 375
+        },
+        {
+            "id": 28,
+            "name": "фуджи",
+            "ingredients": [
+                "сыр",
+                "копченный лосось",
+                "огурец"
+            ],
+            "photo": "https://i.ibb.co/N7J2yDw/roll27.png",
+            "weight": "250",
+            "price": 305
+        },
+        {
+            "id": 29,
+            "name": "дует",
+            "ingredients": [
+                "листья салата",
+                "тобико",
+                "сыр"
+            ],
+            "photo": "https://i.ibb.co/HHvKyv3/roll28.png",
+            "weight": "250",
+            "price": 485
+        },
+        {
+            "id": 30,
+            "name": "бостон",
+            "ingredients": [
+                "тунец",
+                "кунжут",
+                "тобико",
+                "нежный сыр",
+                "авокадо",
+                "икра семги"
+            ],
+            "photo": "https://i.ibb.co/Q6cB88V/roll29.png",
+            "weight": "240",
+            "price": 365
+        },
+        {
+            "id": 31,
+            "name": "каролина",
+            "ingredients": [
+                "угорь",
+                "нежный сыр",
+                "семга",
+                "огурец",
+                "унаги соус"
+            ],
+            "photo": "https://i.ibb.co/swhTFH9/roll30.png",
+            "weight": "270",
+            "price": 515
+        },
+        {
+            "id": 32,
+            "name": "унаги филка",
+            "ingredients": [
+                "угорь",
+                "нежный сыр",
+                "огурец",
+                "унаги соус"
+            ],
+            "photo": "https://i.ibb.co/0D0PnhW/roll31.png",
+            "weight": "280",
+            "price": 465
+        },
+        {
+            "id": 33,
+            "name": "магуро",
+            "ingredients": [
+                "тунец",
+                "снежный краб",
+                "авокадо",
+                "огурец",
+                "спайси соус",
+                "кунжут"
+            ],
+            "photo": "https://i.ibb.co/GJf9d6H/roll32.png",
+            "weight": "260",
+            "price": 315
+        },
+        {
+            "id": 34,
+            "name": "тайгер",
+            "ingredients": [
+                "тигровая креветка",
+                "нежный сыр",
+                "семга",
+                "лимон"
+            ],
+            "photo": "https://i.ibb.co/6Zpj71j/roll33.png",
+            "weight": "280",
+            "price": 475
+        },
+        {
+            "id": 35,
+            "name": "тортилья веган",
+            "ingredients": [
+                "нежный сыр",
+                "лист салата",
+                "огурец",
+                "болгарский перец",
+                "помидор"
+            ],
+            "photo": "https://i.ibb.co/sJ6RSDF/roll34.png",
+            "weight": "200",
+            "price": 205
+        },
+        {
+            "id": 36,
+            "name": "тортилья с семгой",
+            "ingredients": [
+                "нежный сыр",
+                "лист салата",
+                "огурец",
+                "лук зеленый",
+                "семга"
+            ],
+            "photo": "https://i.ibb.co/Kxfzxyr/roll35.png",
+            "weight": "280",
+            "price": 295
+        },
+        {
+            "id": 37,
+            "name": "дракон люкс",
+            "ingredients": [
+                "нежный сыр",
+                "авокадо",
+                "тигровая креветки",
+                "угорь",
+                "тобико"
+            ],
+            "photo": "https://i.ibb.co/zVDjkT3/roll36.png",
+            "weight": "250",
+            "price": 575
+        },
+        {
+            "id": 38,
+            "name": "дракон",
+            "ingredients": [
+                "снежный краб",
+                "угорь",
+                "авокадо",
+                "огурец",
+                "кунжут",
+                "унаги соус"
+            ],
+            "photo": "https://i.ibb.co/dg6J932/roll37.png",
+            "weight": "250",
+            "price": 485
+        },
+        {
+            "id": 39,
+            "name": "краб креветка",
+            "ingredients": [
+                "нежный сыр",
+                "краб",
+                "тигровая креветка",
+                "кунжут",
+                "спайси соус"
+            ],
+            "photo": "https://i.ibb.co/9ctbPSf/roll38.png",
+            "weight": "250",
+            "price": 285
+        },
+        {
+            "id": 40,
+            "name": "хрустящий ролл",
+            "ingredients": [
+                "угорь",
+                "нежный сыр",
+                "помидор",
+                "чипсы",
+                "спайси соус"
+            ],
+            "photo": "https://i.ibb.co/NFgt6zf/roll39.png",
+            "weight": "220",
+            "price": 315
+        },
+        {
+            "id": 41,
+            "name": "камикадзе",
+            "ingredients": [
+                "семга",
+                "угорь",
+                "перец болгарский",
+                "салат чука",
+                "нежный сыр",
+                "тобико",
+                "спайси соус"
+            ],
+            "photo": "https://i.ibb.co/CMMnjmD/roll40.png",
+            "weight": "250",
+            "price": 585
+        }
+    ],
+    "bakedRolls": [
+        {
+            "category": "ЗАПЕЧЕННЫЕ РОЛЛЫ",
+            "id": 1,
+            "name": "Ролл гейша",
+            "description": "нежный сыр, тобико, огурцы, семга, угорь, соус ширача.",
+            "photo": "https://i.ibb.co/cCH7Kzr/baked-roll1.png",
+            "price": 545,
+            "weight": 250
+        },
+        {
+            "id": 2,
+            "name": "Масака хот",
+            "description": "нежный сыр, омлет, куриное филе, огурцы, кунжут, фирменный соус.",
+            "photo": "https://i.ibb.co/JQz5NHY/baked-roll2.png",
+            "price": 395,
+            "weight": 270
+        },
+        {
+            "id": 3,
+            "name": "Тортилья запеченная",
+            "description": "тортилья, куриное филе, нежный сыр, листья салата, зеленый лук, фирменный соус.",
+            "photo": "https://i.ibb.co/nLXwQs2/baked-roll3.png",
+            "price": 295,
+            "weight": 270
+        },
+        {
+            "id": 4,
+            "name": "Аомори",
+            "description": "жаренная семга, нежный сыр, огурец, тобико, масака соус.",
+            "photo": "https://i.ibb.co/F3RYLh4/baked-roll4.png",
+            "price": 415,
+            "weight": 255
+        },
+        {
+            "id": 5,
+            "name": "ГОДЗИЛЛА",
+            "description": "тигровая креветка, нежный сыр, тобико, масака соус.",
+            "photo": "https://i.ibb.co/wNkb0nd/baked-roll5.png",
+            "price": 475,
+            "weight": 260
+        },
+        {
+            "id": 6,
+            "name": "АРИГАТО",
+            "description": "угорь, снежный краб, авокадо, нежный сыр, кунжут, масака соус.",
+            "photo": "https://i.ibb.co/gt52jqL/baked-roll6.png",
+            "price": 485,
+            "weight": 275
+        },
+        {
+            "id": 7,
+            "name": "ДАМА В КРАСНОМ",
+            "description": "семга, снежный краб, огурец, нежный сыр, тобико, масака соус.",
+            "photo": "https://i.ibb.co/TbRgCbd/baked-roll7.png",
+            "price": 405,
+            "weight": 290
+        },
+        {
+            "id": 8,
+            "name": "ЧЕРНЫЙ ЖЕМЧУГ",
+            "description": "семга, снежный краб, нежный сыр, тобико, огурец, кунжут, масака соус.",
+            "photo": "https://i.ibb.co/hM9pqCM/baked-roll8.png",
+            "price": 395,
+            "weight": 290
+        }
+    ],
+    "tempuraRolls":[
+        {
+          "category": "ТЕМПУРА РОЛЛЫ",
+          "id": 1,
+          "name": "КАГУАССЕ",
+          "ingredients": [
+            "шпинат",
+            "зеленый лук",
+            "тобика",
+            "сыр виола",
+            "огурцы",
+            "семга",
+            "снежный краб"
+          ],
+          "photo": "",
+          "price": 355,
+          "weight": 270
+        },
+        {
+          "id": 2,
+          "name": "ТЕМПУРА ОСАКА",
+          "ingredients": [
+            "семга",
+            "снежный краб",
+            "тобико",
+            "сыр виола",
+            "огурец"
+          ],
+          "photo": "",
+          "price": 345,
+          "weight": 280
+        },
+        {
+          "id": 3,
+          "name": "ТЕМПУРА ЧИКЕН",
+          "ingredients": [
+            "курица",
+            "помидор",
+            "нежный сыр",
+            "глист салата",
+            "фирменный соус",
+            "пармезан"
+          ],
+          "photo": "",
+          "price": 345,
+          "weight": 300
+        },
+        {
+          "id": 4,
+          "name": "ЮДЗАВА",
+          "ingredients": [
+            "угорь",
+            "огурец",
+            "снежный краб",
+            "тобика",
+            "кунжут",
+            "унаги соус",
+            "спайси соус"
+          ],
+          "photo": "",
+          "price": 345,
+          "weight": 280
+        },
+        {
+          "id": 5,
+          "name": "СИНСИРО",
+          "ingredients": [
+            "тунец",
+            "снежный краб",
+            "сыр виола",
+            "огурец",
+            "соус пармежано"
+          ],
+          "photo": "",
+          "price": 345,
+          "weight": 300
+        },
+        {
+          "id": 6,
+          "name": "ТЕМПУРА ЧУКА",
+          "ingredients": [
+            "снежный краб",
+            "сыр виола",
+            "угорь",
+            "чука",
+            "авокадо",
+            "кунжут"
+          ],
+          "photo": "",
+          "price": 445,
+          "weight": 300
+        },
+        {
+          "id": 7,
+          "name": "ТЕМПУРА LOVE",
+          "ingredients": [
+            "семга",
+            "нежный сыр",
+            "соус унаги"
+          ],
+          "photo": "",
+          "price": 545,
+          "weight": 300
+        },
+        {
+          "id": 8,
+          "name": "ОРЕХОВАЯ ТЕМПУРА",
+          "ingredients": [
+            "угорь",
+            "семга",
+            "сыр виола",
+            "ореховый соус"
+          ],
+          "photo": "",
+          "price": 345,
+          "weight": 280
+        }
+      ],
+    "sets":[
+        {
+            "category": "СЕТЫ",
+            "id": 1,
+            "name": "студент",
+            "photo": "${Set1}",
+            "price": 755
+        },
+        {
+            "id": 2,
+            "name": "студент про",
+            "photo": "${Set2}",
+            "price": 1150
+        },
+        {
+            "id": 3,
+            "name": "masaka",
+            "photo": "${Set3}",
+            "price": 2155
+        },
+        {
+            "id": 4,
+            "name": "семейный",
+            "photo": "${Set4}",
+            "price": 2695
+        },
+        {
+            "id": 5,
+            "name": "hot",
+            "photo": "${Set5}",
+            "price": 1695
+        },
+        {
+            "id": 6,
+            "name": "классический",
+            "photo": "${Set6}",
+            "price": 1250
+        },
+        {
+            "id": 7,
+            "name": "завтрак сумоиста",
+            "photo": "${Set7}",
+            "price": 945
+        },
+        {
+            "id": 8,
+            "name": "обед сумоиста",
+            "photo": "${Set8}",
+            "price": 1750
+        },
+        {
+            "id": 9,
+            "name": "ужин сумоиста",
+            "photo": "${Set9}",
+            "price": 2295
+        }
+      ],
+    "kidsMenu":[
+        {
+            "category": "ДЕТСКОЕ МЕНЮ",
+            "id": 1,
+            "name": "куриный бульон с лапшой",
+            "photo": "https://i.ibb.co/Y8D91X2/kids5.jpg",
+            "price": 220
+          },
+          {
+            "id": 2,
+            "name": "фрикадельки с вермишелью",
+            "photo": "https://i.ibb.co/rc38VhR/kids7.jpg",
+            "price": 200
+          },
+          {
+            "id": 3,
+            "name": "сосиски с киндер фри",
+            "photo": "https://i.ibb.co/gjgGQqv/kids4.jpg",
+            "price": 245
+          },
+          {
+            "id": 4,
+            "name": "фарфалле с осминожками и с сырными шариками",
+            "photo": "https://i.ibb.co/wcTbMRX/kid1.png",
+            "price": 250
+          },
+          {
+            "id": 5,
+            "name": "куриная котлета с фри",
+            "photo": "https://i.ibb.co/yQ1cVd8/kid2.png",
+            "price": 295
+          },
+          {
+            "id": 6,
+            "name": "чикен болл с пюре",
+            "photo": "https://i.ibb.co/7gt5HK7/kids6.jpg",
+            "price": 245
+          },
+          {
+            "id": 7,
+            "name": "хлебная корзина",
+            "photo": "https://i.ibb.co/st8zgC7/bread.jpg",
+            "price": 205,
+            "name2": "багет",
+            "price2": 80
+          }
+    ],
+    "deserts": [
+        {
+            "category": "ДЕСЕРТЫ",
+            "id": 1,
+            "name": "микс куриму",
+            "description": "мороженное три вида: орех, васаби, имбирь",
+            "photo": "https://i.ibb.co/DWQCDt1/desert1.png",
+            "price": 199,
+            "weight": 180
+        },
+        {
+            "id": 2,
+            "name": "моти",
+            "photo": "https://i.ibb.co/YWCmrPg/desert2.png",
+            "price": 240,
+            "count": 1
+        },
+        {
+            "id": 3,
+            "name": "десертные роллы",
+            "photo": "https://i.ibb.co/VwFtgzj/desert3.png",
+            "price": 250,
+            "weight": 150
+        }
+    ],
+    "drinks":[
+        {
+          "id": 1,
+          "name": "напитки",
+          "ingr": [
+            {
+              "name": "ice tea каркаде",
+              "price": 129
+            },
+            {
+              "name": "ice tea зеленый",
+              "price": 140
+            },
+            {
+              "name": "ice tea черный",
+              "price": 140
+            },
+            {
+              "name": "bonaqua",
+              "size": "0,5/1",
+              "price": "50/90"
+            },
+            {
+              "name": "cocacola/fanta/sprite",
+              "size": "0,25/1",
+              "price": "80/160"
+            },
+            {
+              "name": "вода с лимоном",
+              "size": "1",
+              "price": 120
+            },
+            {
+              "name": "сок в ассортименте",
+              "size": "0,25/1",
+              "price": "70/250"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "авторские чаи",
+          "ingr": [
+            {
+              "name": "сады марракеша",
+              "price": 200
+            },
+            {
+              "name": "японский рассвет",
+              "price": 250
+            },
+            {
+              "name": "боро-боро",
+              "price": 250
+            },
+            {
+              "name": "ЯГОДНЫЙ",
+              "price": 240
+            },
+            {
+              "name": "СМОРОДИНОВЫЙ",
+              "price": 240
+            },
+            {
+              "name": "ОБЛЕПИХОВЫЙ",
+              "price": 240
+            },
+            {
+              "name": "ИМБИРНО-ЛИМОННЫЙ",
+              "price": 240
+            },
+            {
+              "name": "МАРОККАНСКИЙ",
+              "price": 240
+            },
+            {
+              "name": "МЯТНЫЙ ЧАЙ",
+              "price": 240
+            },
+            {
+              "name": "ФРУКТОВЫЙ",
+              "price": 240
+            },
+            {
+              "name": "ТАШКЕНТСКИЙ",
+              "price": 240
+            },
+            {
+              "name": "ЧЕРНЫЙ / ЗЕЛЕНЫЙ",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "элитные чаи",
+          "ingr": [
+            {
+              "name": "ТЭ ГУАНЬ ИНЬ",
+              "price": 150
+            },
+            {
+              "name": "МОЛОЧНЫЙ УЛУН",
+              "price": 150
+            },
+            {
+              "name": "ЖАСМИНОВЫЙ",
+              "price": 150
+            },
+            {
+              "name": "ПУ-ЭР",
+              "price": 150
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "свежевыжатые соки",
+          "ingr": [
+            {
+              "name": "МОРКОВНЫЙ",
+              "price": 160
+            },
+            {
+              "name": "ЯБЛОЧНЫЙ",
+              "price": 160
+            },
+            {
+              "name": "ЯБЛОЧНО-МОРКОВНЫЙ",
+              "price": 160
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "лимонады",
+          "ingr": [
+            {
+              "name": "мэд оранж",
+              "size": "0,6",
+              "price": 240
+            },
+            {
+              "name": "карибский бриз",
+              "size": "0,6",
+              "price": 240
+            },
+            {
+              "name": "сприц",
+              "size": "0,6",
+              "price": 240
+            },
+            {
+              "name": "вишня-клубника",
+              "size": "1",
+              "price": 290
+            },
+            {
+              "name": "мохито клубничный",
+              "size": "0,6",
+              "price": 240
+            },
+            {
+              "name": "мохито малиновый",
+              "size": "0,6",
+              "price": 240
+            },
+            {
+              "name": "МАРАКУЙЯ-МАНГО",
+              "size": "04/1",
+              "price": "190/290"
+            },
+            {
+              "name": "ГРЕЙФРУТ ЗЕМЛЕНИКА",
+              "size": "04/1",
+              "price": "190/290"
+            },
+            {
+              "name": "ЯБЛОКО АПЕЛЬСИН",
+              "size": "04/1",
+              "price": "190/290"
+            },
+            {
+              "name": "МАРАКУЙЯ-МАЛИНА",
+              "size": "04/1",
+              "price": "190/290"
+            },
+            {
+              "name": "МОХИТО",
+              "size": "04/1",
+              "price": "190/290"
+            },
+            {
+              "name": "ЧЕРНИЧНЫЙ",
+              "size": "04/1",
+              "price": "190/290"
+            },
+            {
+              "name": "КИВИ ЛАЙМ",
+              "size": "04/1",
+              "price": "190/290"
+            },
+            {
+              "name": "ТРОПИЧЕСКИЙ",
+              "size": "04/1",
+              "price": "190/290"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "милкшейк",
+          "ingr": [
+            {
+              "name": "ВАНИЛЬНЫЙ",
+              "price": 200
+            },
+            {
+              "name": "ШОКОЛАДНО-БАНАНОВЫЙ",
+              "price": 200
+            },
+            {
+              "name": "ШОКОЛАДНЫЙ",
+              "price": 200
+            },
+            {
+              "name": "СНИКЕРС-МИЛК",
+              "price": 200
+            },
+            {
+              "name": "КЛУБНИЧНЫЙ",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "смузи",
+          "ingr": [
+            {
+              "name": "НЕЖНЫЙ БАНАН",
+              "price": 200
+            },
+            {
+              "name": "АПЕЛЬСИН ВИШНЯ",
+              "price": 200
+            },
+            {
+              "name": "ЯГОДНЫЙ",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "детокс",
+          "ingr": [
+            {
+              "name": "АВОКАДО, ШПИНАТ, БАНАН",
+              "price": 190
+            },
+            {
+              "name": "ШПИНАТ, ЛИСТЬЯ САЛАТА, АПЕЛЬСИН",
+              "price": 190
+            },
+            {
+              "name": "ЗЕЛЕНЫЙ СМУЗИ",
+              "price": 190
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "коктейли",
+          "ingr": [
+            {
+              "name": "пина колада",
+              "size": "0,4",
+              "price": 200
+            },
+            {
+              "name": "бабл гам",
+              "size": "0,4",
+              "price": 230
+            },
+            {
+              "name": "пеликан",
+              "size": "0,4",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "кофе",
+          "ingr": [
+            {
+              "name": "эспрессо",
+              "size2": "50",
+              "price": 110
+            },
+            {
+              "name": "double эспрессо",
+              "size2": "100",
+              "price": 150
+            },
+            {
+              "name": "американо",
+              "size2": "150/300",
+              "price": "120/135"
+            },
+            {
+              "name": "латте классик",
+              "size2": "350",
+              "price": 170
+            },
+            {
+              "name": "латте шоколадный",
+              "size2": "350",
+              "price": 220
+            },
+            {
+              "name": "латте карамельный",
+              "size2": "350",
+              "price": 220
+            },
+            {
+              "name": "капучино",
+              "size2": "200/350/450",
+              "price": "145/175/240"
+            },
+            {
+              "name": "раф кофе классик",
+              "size2": "400",
+              "price": 230
+            },
+            {
+              "name": "гляссе с кунжутом",
+              "size2": "250",
+              "price": 220
+            },
+            {
+              "name": "крем-брюле айс кофе",
+              "size2": "400",
+              "price": 220
+            }
+          ]
+        }
+      ]
+}
