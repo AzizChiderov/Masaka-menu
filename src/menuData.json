@@ -691,6 +691,13 @@
       "price": 180
     },
     {
+        "id": 23,
+        "name": "СПРИНГ РОЛЛ С КУРИЦЕЙ",
+        "photo": "https://i.ibb.co/TmKC7Vv/chicken23.jpg",
+        "weight": "110",
+        "price": 200
+      },
+    {
       "id": 14,
       "name": "КУРИЦА В КИСЛО-ОСТРОМ СОУСЕ",
       "photo": "https://i.ibb.co/bdnSNjL/chicken14.png",
