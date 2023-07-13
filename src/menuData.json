@@ -635,7 +635,7 @@
       "id": 5,
       "name": "ЗАПЕЧЕННЫЙ ЦЫПЛЕОК С КУС КУС",
       "description": " сочный цыпленок с ароматными специями, с марокканским кускусом и соусом терияки",
-      "photo": "https://i.ibb.co/3hSLwxH/snack5.png",
+      "photo": "https://i.ibb.co/Y2ZNsb0/chicken5.png",
       "weight": "390",
       "price": 435
     },
@@ -694,8 +694,8 @@
       "id": 14,
       "name": "КУРИЦА В КИСЛО-ОСТРОМ СОУСЕ",
       "photo": "https://i.ibb.co/bdnSNjL/chicken14.png",
-      "weight": "390",
-      "price": 405
+      "weight": "320",
+      "price": 355
     },
     {
       "id": 15,
@@ -703,7 +703,7 @@
       "description": "курица обжаренная с овощами, с заправкой тайского карри",
       "photo": "https://i.ibb.co/JCWMnZv/chicken15.png",
       "weight": "350",
-      "price": 350
+      "price": 295
     },
     {
       "id": 16,
@@ -793,7 +793,7 @@
       "description": " фунчоза в пряном соусе, с ветчиной по-азиатски(Халал)",
       "photo": "https://i.ibb.co/LCQhzpM/noodle4-a44d61770cdeaef2dc8d.png",
       "weight": "450",
-      "price": 490
+      "price": 495
     },
     {
       "id": 5,
