@@ -537,8 +537,8 @@
       "name": "ГРИБЫ ЭНОКИ В КИСЛО-ОСТРОМА СОУСЕ",
       "description": "полезные и вкусные грибы эноки приготовленные в кисло-остром соусе",
       "photo": "https://i.ibb.co/8chRGbm/snack2.png",
-      "weight": "385",
-      "price": 250
+      "weight": "250",
+      "price": 385
     },
     {
       "id": 3,
@@ -619,7 +619,7 @@
       "id": 3,
       "name": "ТАЙ ЧИККЕН СВИТ КАРРИ",
       "description": " нежное куриное филе, с овощами и соусом карри со сладким оттенком меда",
-      "photo": "https://i.ibb.co/sqXdD69/snack3.png",
+      "photo": "https://i.ibb.co/9WBL1G9/chicken3.jpg",
       "weight": "390",
       "price": 335
     },
@@ -627,7 +627,7 @@
       "id": 4,
       "name": "СПАЙС ЧИКЕН",
       "description": " яркий, насыщенный кисло-островатый вкус куриного мяса, с пикантной остринкой и овощами",
-      "photo": "https://i.ibb.co/wNVgsQF/snack4.png",
+      "photo": "https://i.ibb.co/3cGshPW/chiken4.jpg",
       "weight": "390",
       "price": 335
     },
@@ -691,35 +691,27 @@
       "price": 180
     },
     {
-      "id": 13,
+      "id": 14,
       "name": "КУРИЦА В КИСЛО-ОСТРОМ СОУСЕ",
-      "photo": "https://i.ibb.co/9ZH9sbV/chicken13.png",
+      "photo": "https://i.ibb.co/bdnSNjL/chicken14.png",
       "weight": "390",
       "price": 405
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "КАРРИДОН",
       "description": "курица обжаренная с овощами, с заправкой тайского карри",
-      "photo": "https://i.ibb.co/bdnSNjL/chicken14.png",
+      "photo": "https://i.ibb.co/JCWMnZv/chicken15.png",
       "weight": "350",
       "price": 350
     },
     {
-      "id": 15,
+      "id": 16,
       "name": "КРЫЛЫШКИ С ЛАПШОЙ",
       "description": " острые крылышки с тонкой лапшой в сливочном соусе",
-      "photo": "https://i.ibb.co/JCWMnZv/chicken15.png",
+      "photo": "https://i.ibb.co/pdL99MQ/chicken16.png",
       "weight": "380",
       "price": 375
-    },
-    {
-      "id": 16,
-      "name": "СПАЙС ЧИКЕН",
-      "description": " яркий, насыщенный кисло-островатый вкус куриного мяса, с пикантной остринкой и овощами",
-      "photo": "https://i.ibb.co/pdL99MQ/chicken16.png",
-      "weight": "390",
-      "price": 335
     },
     {
       "id": 17,
@@ -1423,7 +1415,7 @@
       "id": 5,
       "name": "ГОДЗИЛЛА",
       "description": "тигровая креветка, нежный сыр, тобико, масака соус.",
-      "photo": "https://i.ibb.co/wNkb0nd/baked-roll5.png",
+      "photo": "https://i.ibb.co/DGtym1T/baked-roll9-2.jpg",
       "price": 475,
       "weight": 260
     },
@@ -1439,7 +1431,7 @@
       "id": 7,
       "name": "ДАМА В КРАСНОМ",
       "description": "семга, снежный краб, огурец, нежный сыр, тобико, масака соус.",
-      "photo": "https://i.ibb.co/TbRgCbd/baked-roll7.png",
+      "photo": "https://i.ibb.co/hB7HqqK/baked-roll10-2.jpg",
       "price": 405,
       "weight": 290
     },
@@ -1447,7 +1439,7 @@
       "id": 8,
       "name": "ЧЕРНЫЙ ЖЕМЧУГ",
       "description": "семга, снежный краб, нежный сыр, тобико, огурец, кунжут, масака соус.",
-      "photo": "https://i.ibb.co/hM9pqCM/baked-roll8.png",
+      "photo": "https://i.ibb.co/4Jf8Dkx/baked-roll11.jpg",
       "price": 395,
       "weight": 290
     }
@@ -1691,8 +1683,8 @@
       "name": "гю эноки",
       "description": "хрустящие грибы эноки завернутые в нежном филе говядины, соусом кимчи и свит чили",
       "photo": "https://i.ibb.co/HpNBDxT/beef2.png",
-      "weight": "250",
-      "price": 385
+      "weight": "320",
+      "price": 545
     },
     {
       "id": 3,
